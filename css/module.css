@@ -8,5 +8,12 @@
 .m-navigation {
   width: 100%;
   background: red;
-  padding: 10px 0;
+  padding: 10.2px 0;
+}
+
+.m-pane {
+  width: 100%;
+  height: calc(100vh - 50px - (80.4px * 0.8));
+  background: url("https://s3-media4.fl.yelpcdn.com/bphoto/w-xV52WWnNwcpekY6OcXog/o.jpg");
+  background-size: cover;
 }
