@@ -5,3 +5,12 @@
   left: 50%;
   transform: translateX(-50%);
 }
+
+.l-navigation {
+  position: absolute;
+  bottom: 0;
+}
+
+.l-nav-list-item {
+  width: calc((100% / 4) - 3px);
+}
