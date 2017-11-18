@@ -13,7 +13,8 @@
 
 .m-pane {
   width: 100%;
-  height: calc(100vh - 50px - (80.4px * 0.8));
-  background: url("https://s3-media4.fl.yelpcdn.com/bphoto/w-xV52WWnNwcpekY6OcXog/o.jpg");
+  height: calc(100vh - 125px);
+  background: url("../images/burrito.jpeg");
   background-size: cover;
+  background-position: 20%;
 }
