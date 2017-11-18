@@ -1,0 +1,10 @@
+.t-wordmark {
+  color: yellow;
+  text-shadow: 2px 2px 6px green;
+  font-size: 28px;
+}
+
+.t-tagline {
+  font-size: 15px;
+  text-shadow: 0.5px 0.5px 0 white, -0.5px -0.5px 0 white;
+}
