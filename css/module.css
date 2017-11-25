@@ -17,4 +17,6 @@
   background: url("../images/burrito.jpeg");
   background-size: cover;
   background-position: 20%;
+  overflow: scroll;
+  padding: 20px;
 }

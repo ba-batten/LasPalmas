@@ -33,10 +33,14 @@
     </ul>
   </nav>
 
-  <main class="m-pane l-pane">
+  <main class="m-pane l-pane t-pane">
+    <article data-bind="if: view(about)" class="t-about">
+      <h2>About</h2>
+      <img data-bind="attr: {src: about.img}" class="l-about-img">
+      <p data-bind="text: about.text"></p>
+    </article>
 
   </main>
-
 
 
 
@@ -49,5 +53,6 @@
   <script src="jquery-3.2.1.min.js"></script>
   <script src="js/knockout-3.4.2.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/AppViewModel.js"></script>
 </body>
 </html>
