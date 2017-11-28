@@ -1,5 +1,7 @@
-  var data = {
-    view: ko.observable('about'),
+function AppViewModel() {
+  var self = this;
+
+  self.data = {
     about: {
       text: 'Las Palmas Inc.,  Originated from a dream, In 1980 Saul Alfaro migrated from his place of' +
       ' birth El Salvador, to Los Angeles with the American dream. At the age of 20 Saul started working' +
@@ -15,10 +17,27 @@
       ' and Saul and his family they would like to thank all there customers for there support and hope to ' +
       ' keep serving the community with more years to come!',
       img: 'images/girl_and_truck.jpeg',
+      show: ko.observable(false)
     }
-  }
+  };
+
+  self.goHome = function() {
+    self.data.about.show(false);
+    console.log('Go Home');
+  };
+
+  self.goAbout = function() {
+    self.data.about.show(true);
+    console.log('Go About');
+  };
 
 
 
 
-ko.applyBindings(data);
+
+}
+
+
+var model = new AppViewModel();
+
+ko.applyBindings(model);
