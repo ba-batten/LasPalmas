@@ -14,8 +14,3 @@
 .l-nav-list-item {
   width: calc((100% / 4) - 3px);
 }
-
-.l-pane {
-  margin-top: calc(80.6px - (80.4px * 0.2));
-  /*border: thin solid green;*/
-}
