@@ -15,6 +15,14 @@
 
 .t-fa {
   text-shadow: 1px 1px 3px rgb(51,51,51);
+  padding: 10.2px;
+  width: 48.4px;
+}
+
+.t-fa:active {
+  color: #eee;
+  text-shadow: -1px -1px 3px rgb(51,51,51);
+  background: rgba(51,51,51,0.3);
 }
 
 .t-pane h2 {
