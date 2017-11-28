@@ -5,10 +5,9 @@ html, body {
   padding: 0;
   box-sizing: border-box;
   background: white;
-}
-
-body {
-  font-family: 'Open Sans', 'Helvetica' sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.8;
+  color: #222222;
 }
 
 
