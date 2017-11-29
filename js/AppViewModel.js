@@ -30,13 +30,33 @@ function AppViewModel() {
     self.data.home.show(false);
   }
 
+  // Change wordmark container to be a bar across top of page
+  self.changeWordmarkContainer = function() {
+    $('.m-wordmark-container').css('width', '100%');
+    $('.m-wordmark-container').css('clip-path', 'none');
+    $('.m-wordmark-container').css('padding', '10px 0');
+    $('.t-tagline').css('display', 'none');
+  }
+
+  // Reset wordmark container to be a shape centered at top of page
+  self.resetWordmarkContainer = function() {
+    $('.m-wordmark-container').css('width', '250px');
+    $('.m-wordmark-container').css('clip-path',
+     'polygon(0% 0%, 100% 0%, 97% 80%, 50% 100%, 3% 80%)');
+    $('.m-wordmark-container').css('padding', '10px 15px 20px');
+    $('.t-tagline').css('display', 'block');
+
+  }
+
   self.goHome = function() {
+    self.resetWordmarkContainer();
     self.closeViews();
     self.data.home.show(true);
     console.log('Go Home');
   };
 
   self.goAbout = function() {
+    self.changeWordmarkContainer();
     self.closeViews();
     self.data.about.show(true);
     console.log('Go About');
