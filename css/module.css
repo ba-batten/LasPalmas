@@ -1,13 +1,13 @@
 .m-wordmark-container {
   width: 250px;
   padding: 10px 15px 20px;
-  background: red;
+  background: #C02520;
   clip-path: polygon(0% 0%, 100% 0%, 97% 80%, 50% 100%, 3% 80%);
 }
 
 .m-navigation {
   width: 100%;
-  background: red;
+  background: #C02520;
   /*padding: 10.2px 0;*/
 }
 
