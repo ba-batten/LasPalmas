@@ -25,15 +25,20 @@ function AppViewModel() {
     }
   };
 
-  self.goHome = function() {
+  self.closeViews = function() {
     self.data.about.show(false);
+    self.data.home.show(false);
+  }
+
+  self.goHome = function() {
+    self.closeViews();
     self.data.home.show(true);
     console.log('Go Home');
   };
 
   self.goAbout = function() {
+    self.closeViews();
     self.data.about.show(true);
-    self.data.home.show(false);
     console.log('Go About');
   };
 
