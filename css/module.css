@@ -3,6 +3,7 @@
   padding: 10px 15px 20px;
   background: #C02520;
   clip-path: polygon(0% 0%, 100% 0%, 97% 80%, 50% 100%, 3% 80%);
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 97% 80%, 50% 100%, 3% 80%);
 }
 
 .m-navigation {
