@@ -14,3 +14,10 @@
 .l-nav-list-item {
   width: calc((100% / 4) - 3px);
 }
+
+.l-home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

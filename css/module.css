@@ -14,9 +14,11 @@
 .m-pane {
   width: 100%;
   height: calc(100vh - 48.4px);
-  background: url("../images/burrito.jpeg");
-  background-size: cover;
-  background-position: 20%;
+  /*background: url("../images/burrito.jpeg");*/
   overflow: scroll;
   padding: 0;
+}
+
+.m-home {
+  width: 100%;
 }

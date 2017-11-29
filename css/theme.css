@@ -26,8 +26,17 @@
   border-radius: 50%;
 }
 
+.t-pane {
+  background: linear-gradient(
+    rgba(255,255,255,0.8),
+    rgba(255,255,255,0.8)
+    ), url("../images/burrito.jpeg");
+  background-size: cover;
+  background-position: 20%;
+}
+
 .t-pane h2 {
-  margin-top: 80px;
+  /*margin-top: 80px;*/
   text-align: center;
   display: block;
   padding: 20px;
@@ -35,11 +44,15 @@
 }
 
 .t-about {
-  background: rgba(255,255,255,0.8);
+  /*background: rgba(255,255,255,0.8);*/
   height: 100%;
   text-align: center;
   overflow: scroll;
   padding: 10px;
+}
+
+.t-about h2 {
+  margin-top: 80px;
 }
 
 .t-about p {
@@ -50,4 +63,9 @@
   width: 50%;
   border-radius: 50%;
   margin: 0 10px 10px;
+}
+
+.t-home-header {
+  margin: none;
+  font-size: 6vw;
 }

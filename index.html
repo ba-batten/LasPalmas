@@ -34,6 +34,12 @@
   </nav>
 
   <main class="m-pane l-pane t-pane">
+    <article data-bind="if: data.home.show">
+      <div class="l-home t-home m-home">
+        <h2 data-bind="text: data.home.text" class="t-home-header"></h2>
+      </div>
+    </article>
+
     <article data-bind="if: data.about.show">
       <div class="t-about">
         <h2>About</h2>

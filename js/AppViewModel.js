@@ -2,6 +2,10 @@ function AppViewModel() {
   var self = this;
 
   self.data = {
+    home: {
+      text: 'Authentic Mexican food with a touch of home cooking',
+      show: ko.observable(true)
+    },
     about: {
       text: 'Las Palmas Inc.,  Originated from a dream, In 1980 Saul Alfaro migrated from his place of' +
       ' birth El Salvador, to Los Angeles with the American dream. At the age of 20 Saul started working' +
@@ -23,11 +27,13 @@ function AppViewModel() {
 
   self.goHome = function() {
     self.data.about.show(false);
+    self.data.home.show(true);
     console.log('Go Home');
   };
 
   self.goAbout = function() {
     self.data.about.show(true);
+    self.data.home.show(false);
     console.log('Go About');
   };
 
