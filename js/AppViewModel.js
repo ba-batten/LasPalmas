@@ -22,7 +22,33 @@ function AppViewModel() {
       ' keep serving the community with more years to come!',
       img: 'images/girl_and_truck.jpeg',
       show: ko.observable(false)
-    }
+    },
+    locations: [
+      {
+        street: '3801 Wake Forest Highway',
+        city: 'Durham',
+        state: 'NC',
+        zip: '27703',
+        phone: '(919) 598-5610',
+        img: ''
+      },
+      {
+        street: '3814 North Duke Street',
+        city: 'Durham',
+        state: 'NC',
+        zip: '27704',
+        phone: '(919) 620-1824',
+        img: ''
+      },
+      {
+        street: '13220 Strickland Road',
+        city: 'Raleigh',
+        state: 'NC',
+        zip: '27613',
+        phone: '(919) 845-4780',
+        img: ''
+      }
+    ]
   };
 
   self.closeViews = function() {
