@@ -52,18 +52,20 @@
 }
 
 .t-about h2 {
-  margin-top: 80px;
+  margin: 90px auto 40px;
 }
 
 .t-about p {
   text-align: left;
   color: white;
+  line-height: 2;
+  font-size: 14px;
 }
 
 .t-about img {
   width: 50%;
   border-radius: 50%;
-  margin: 0 10px 10px;
+  margin: 0 10px 60px;
   border: thick solid white;
 }
 
