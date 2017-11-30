@@ -60,7 +60,7 @@ function AppViewModel() {
   self.changeWordmarkContainer = function() {
     $('.m-wordmark-container').css({'width': '100%',
                                     'clip-path': 'polygon(0% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%)',
-                                    '-webkit-clip-path': 'polygon(0% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%),
+                                    '-webkit-clip-path': 'polygon(0% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%)',
                                     'padding': '10px 0'});
     $('.t-tagline').css('display', 'none');
   }
