@@ -33,7 +33,10 @@ function AppViewModel() {
   // Change wordmark container to be a bar across top of page
   self.changeWordmarkContainer = function() {
     $('.m-wordmark-container').css('width', '100%');
-    $('.m-wordmark-container').css('clip-path', 'none');
+    $('.m-wordmark-container').css('clip-path',
+     'polygon(0% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%)');
+    $('.m-wordmark-container').css('-webkit-clip-path',
+    'polygon(0% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%)');
     $('.m-wordmark-container').css('padding', '10px 0');
     $('.t-tagline').css('display', 'none');
   }
@@ -42,6 +45,8 @@ function AppViewModel() {
   self.resetWordmarkContainer = function() {
     $('.m-wordmark-container').css('width', '250px');
     $('.m-wordmark-container').css('clip-path',
+     'polygon(0% 0%, 100% 0%, 97% 80%, 50% 100%, 3% 80%)');
+    $('.m-wordmark-container').css('-webkit-clip-path',
      'polygon(0% 0%, 100% 0%, 97% 80%, 50% 100%, 3% 80%)');
     $('.m-wordmark-container').css('padding', '10px 15px 20px');
     $('.t-tagline').css('display', 'block');
