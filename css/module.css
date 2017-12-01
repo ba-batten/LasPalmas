@@ -29,3 +29,11 @@
 .m-about {
   padding: 10px 10px 50px;
 }
+
+.m-loc-list {
+  text-align: left;
+}
+
+.m-address {
+  display: inline-block;
+}

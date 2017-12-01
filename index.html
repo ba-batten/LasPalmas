@@ -43,18 +43,18 @@
     <article data-bind="if: data.about.show">
       <div class="t-about m-about">
         <h2>About</h2>
-        <img data-bind="attr: { src: data.about.img }" class="l-about-img">
+        <img data-bind="attr: { src: data.about.img }" class="l-about-img t-about-img">
         <p data-bind="text: data.about.text"></p>
       </div>
     </article>
 
     <article data-bind="if: data.locations.show">
       <div class="t-about m-about" data-bind="with: data.locations">
-        <h2>Locations</h2>
-        <ul class="loc-list" data-bind="foreach: locs">
+        <h2 style="margin-bottom: 20px">Locations</h2>
+        <ul class="m-loc-list l-loc-list t-loc-list" data-bind="foreach: locs">
           <li>
             <img class="t-loc-img" data-bind="attr: { src: img, alt: description }">
-            <div class="address">
+            <div class="m-address">
               <p data-bind="text: street"></p>
               <p><span data-bind="text: city"></span>, <span data-bind="text: state"></span>
                 <span data-bind="text: zip"></span></p>

@@ -52,7 +52,7 @@
 }
 
 .t-about h2 {
-  margin: 90px auto 40px;
+  margin: 50px auto 40px;
 }
 
 .t-about p {
@@ -62,7 +62,7 @@
   font-size: 14px;
 }
 
-.t-about img {
+.t-about-img {
   width: 50%;
   border-radius: 50%;
   margin: 0 10px 60px;
@@ -72,4 +72,16 @@
 .t-home-header {
   margin: none;
   font-size: 6vw;
+}
+
+.t-loc-img {
+  border-radius: none;
+  border: none;
+  width: 40%;
+  float: left;
+  margin: 10px;
+}
+
+.t-loc-list p {
+  margin: 0;
 }
