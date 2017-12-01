@@ -27,6 +27,7 @@ function AppViewModel() {
       show: ko.observable(false),
       locs: [
         {
+          description: 'Wake Forest Highway Location',
           street: '3801 Wake Forest Highway',
           city: 'Durham',
           state: 'NC',
@@ -35,6 +36,7 @@ function AppViewModel() {
           img: 'images/wake_forest_hwy_location.jpg'
         },
         {
+          description: 'North Duke Street Location',
           street: '3814 North Duke Street',
           city: 'Durham',
           state: 'NC',
@@ -43,6 +45,7 @@ function AppViewModel() {
           img: ''
         },
         {
+          description: 'Strickland Road Location',
           street: '13220 Strickland Road',
           city: 'Raleigh',
           state: 'NC',
@@ -59,6 +62,7 @@ function AppViewModel() {
   self.closeViews = function() {
     self.data.about.show(false);
     self.data.home.show(false);
+    self.data.locations.show(false);
   }
 
   // Change wordmark container to be a bar across top of page
