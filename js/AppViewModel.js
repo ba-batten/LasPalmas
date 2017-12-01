@@ -98,6 +98,12 @@ function AppViewModel() {
     console.log('Go About');
   };
 
+  self.goLocations = function() {
+    self.changeWordmarkContainer();
+    self.closeViews();
+    self.data.locations.show(true);
+    console.log('Go Locations');
+  };
 
 
 
