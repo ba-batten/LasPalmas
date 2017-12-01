@@ -32,7 +32,7 @@ function AppViewModel() {
           state: 'NC',
           zip: '27703',
           phone: '(919) 598-5610',
-          img: ''
+          img: 'images/wake_forest_hwy_location.jpg'
         },
         {
           street: '3814 North Duke Street',
@@ -48,7 +48,7 @@ function AppViewModel() {
           state: 'NC',
           zip: '27613',
           phone: '(919) 845-4780',
-          img: ''
+          img: 'images/strickland_rd_location.jpg'
         }
       ]
 
