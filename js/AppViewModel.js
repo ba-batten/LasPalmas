@@ -28,7 +28,7 @@ function AppViewModel() {
       locs: [
         {
           description: 'Wake Forest Highway Location',
-          street: '3801 Wake Forest Highway',
+          street: '3801 Wake Forest Hwy',
           city: 'Durham',
           state: 'NC',
           zip: '27703',
@@ -37,7 +37,7 @@ function AppViewModel() {
         },
         {
           description: 'North Duke Street Location',
-          street: '3814 North Duke Street',
+          street: '3814 North Duke St',
           city: 'Durham',
           state: 'NC',
           zip: '27704',
@@ -46,7 +46,7 @@ function AppViewModel() {
         },
         {
           description: 'Strickland Road Location',
-          street: '13220 Strickland Road',
+          street: '13220 Strickland Rd',
           city: 'Raleigh',
           state: 'NC',
           zip: '27613',
