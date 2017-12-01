@@ -42,7 +42,7 @@ function AppViewModel() {
           state: 'NC',
           zip: '27704',
           phone: '(919) 620-1824',
-          img: ''
+          img: 'images/duke_st_location.jpg'
         },
         {
           description: 'Strickland Road Location',
