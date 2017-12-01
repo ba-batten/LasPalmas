@@ -23,32 +23,37 @@ function AppViewModel() {
       img: 'images/girl_and_truck.jpeg',
       show: ko.observable(false)
     },
-    locations: [
-      {
-        street: '3801 Wake Forest Highway',
-        city: 'Durham',
-        state: 'NC',
-        zip: '27703',
-        phone: '(919) 598-5610',
-        img: ''
-      },
-      {
-        street: '3814 North Duke Street',
-        city: 'Durham',
-        state: 'NC',
-        zip: '27704',
-        phone: '(919) 620-1824',
-        img: ''
-      },
-      {
-        street: '13220 Strickland Road',
-        city: 'Raleigh',
-        state: 'NC',
-        zip: '27613',
-        phone: '(919) 845-4780',
-        img: ''
-      }
-    ]
+    locations: {
+      show: ko.observable(false),
+      locs: [
+        {
+          street: '3801 Wake Forest Highway',
+          city: 'Durham',
+          state: 'NC',
+          zip: '27703',
+          phone: '(919) 598-5610',
+          img: ''
+        },
+        {
+          street: '3814 North Duke Street',
+          city: 'Durham',
+          state: 'NC',
+          zip: '27704',
+          phone: '(919) 620-1824',
+          img: ''
+        },
+        {
+          street: '13220 Strickland Road',
+          city: 'Raleigh',
+          state: 'NC',
+          zip: '27613',
+          phone: '(919) 845-4780',
+          img: ''
+        }
+      ]
+
+    }
+
   };
 
   self.closeViews = function() {
@@ -58,19 +63,23 @@ function AppViewModel() {
 
   // Change wordmark container to be a bar across top of page
   self.changeWordmarkContainer = function() {
-    $('.m-wordmark-container').css({'width': '100%',
-                                    'clip-path': 'polygon(0% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%)',
-                                    '-webkit-clip-path': 'polygon(0% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%)',
-                                    'padding': '10px 0'});
+    $('.m-wordmark-container').css('width', '100%');
+    $('.m-wordmark-container').css('clip-path',
+     'polygon(0% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%)');
+    $('.m-wordmark-container').css('-webkit-clip-path',
+    'polygon(0% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%)');
+    $('.m-wordmark-container').css('padding', '10px 0');
     $('.t-tagline').css('display', 'none');
   }
 
   // Reset wordmark container to be a shape centered at top of page
   self.resetWordmarkContainer = function() {
-    $('.m-wordmark-container').css({'width': '250px', 
-                                    'clip-path': 'polygon(0% 0%, 100% 0%, 97% 80%, 50% 100%, 3% 80%)',
-                                    '-webkit-clip-path': 'polygon(0% 0%, 100% 0%, 97% 80%, 50% 100%, 3% 80%)',
-                                    'padding': '10px 15px 20px'});
+    $('.m-wordmark-container').css('width', '250px');
+    $('.m-wordmark-container').css('clip-path',
+     'polygon(0% 0%, 100% 0%, 97% 80%, 50% 100%, 3% 80%)');
+    $('.m-wordmark-container').css('-webkit-clip-path',
+     'polygon(0% 0%, 100% 0%, 97% 80%, 50% 100%, 3% 80%)');
+    $('.m-wordmark-container').css('padding', '10px 15px 20px');
     $('.t-tagline').css('display', 'block');
 
   }
