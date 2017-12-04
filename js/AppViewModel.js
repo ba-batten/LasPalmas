@@ -56,112 +56,117 @@ function AppViewModel() {
       ]
     },
     menu: {
-      show: ko.observable(false);
-      lunch: [
+      show: ko.observable(false),
+      meals: [
         {
-          item: 'Speedy González',
-          description: 'One taco, one enchilada and choice of Spanish rice or refried beans',
+          category: 'lunch',
+          items: [
+            {
+              item: 'Speedy González',
+              description: 'One taco, one enchilada and choice of Spanish rice or refried beans',
+            },
+            {
+              item: 'Lunch Special, No. 1',
+              description: 'One chile relleno, one taco, refried beans and guacamole salad',
+            },
+            {
+              item: 'Lunch Special, No. 2',
+              description: 'One beef burrito, Spanish rice and refried beans',
+            },
+            {
+              item: 'Lunch Special, No. 3',
+              description: 'One burrito, one taco and Spanish rice',
+            },
+            {
+              item: 'Lunch Special, No. 4',
+              description: 'One chile relleno, Spanish rice and refried beans',
+            },
+            {
+              item: 'Lunch Special, No. 5',
+              description: 'One enchilada, Spanish rice and refried beans',
+            },
+            {
+              item: 'Lunch Special, No. 6',
+              description: 'One cheese quesadilla, one burrito, and guacamole salad',
+            },
+            {
+              item: 'Lunch Special, No. 7',
+              description: 'Laredo-skirt steak, choice of two scrmbled or sunny-side-up eggs, refried beans and hash browns',
+            },
+            {
+              item: 'Lunch Special, No. 8',
+              description: 'Pio-Pio-chicken fajitas, chilaquiles, choice of tow scrambled or sunny-side-up eggs and refried beans',
+            },
+            {
+              item: 'Lunch Special, No. 9',
+              description: 'La Cazuela-Two sunny-side-up eggs on top of one chicken or beef sincronizada served with refried beans and has browns with ranchero sauce',
+            },
+            {
+              item: 'A.C.P Lunch',
+              description: 'Rice with chicken topped with cheese dip',
+            },
+            {
+              item: 'Huevos Rancheros',
+              description: 'Two ranch-style eggs topped with Mexican sauce and served with Spanish rice, refried beans and choice of corn or flour tortillas',
+            },
+            {
+              item: 'Quesadilla Deluxe',
+              description: 'Flour tortilla with cheese and chicken, topped with lettuce, tomatoes, sour cream and Spanish rice',
+            },
+            {
+              item: 'Lunch Fajita Quesadilla',
+              description: 'Beef or chicken cooked with tomatoes and onions served with choice of rice or beans and guacamole salad',
+            },
+            {
+              item: 'Burrito Especial',
+              description: 'One beef-and-bean burrito topped with lettuce, tomatoes and sour cream',
+            },
+            {
+              item: 'Green Pork Burrito',
+              description: 'Burrito filled with tender pork sautéed with our homemade fresh green tomatillo sauce and servce with rice',
+            },
+            {
+              item: 'Shrimp Chimichanga Lunch',
+              description: 'Soft or fried flour tortilla filled with shrimp and beans',
+            },
+            {
+              item: 'Chimichanga Lunch',
+              description: 'Soft or fried flour tortilla filled with beef tips and beans',
+            },
+            {
+              item: 'Enchiladas Supremas Lunch',
+              description: 'One cheese and one chicken enchilada topped with lettuce and sour cream served with Spanish rice',
+            },
+            {
+              item: 'Taquitos Mexicanos Lunch',
+              description: 'Two taquitos - one chicken and one beef - served lettuce, guacamole, sour cream and Spanish rice',
+            },
+            {
+              item: 'Huevos con Chorizo',
+              description: 'Eggs scrambled with Mexican sausage served with Spanish rice, refried beans and tortillas',
+            },
+            {
+              item: 'Fajita Burrito Lunch',
+              description: 'One burrito fille with fajita-style chicken or beef ' +
+                'topped with nacho cheese, lettuce, tomatoes and guacamole served ' +
+                'with green peppers, onions, tomatoes, SPanish rice and refried beans',
+            },
+            {
+              item: 'Fajitas Lunch',
+              description: 'A lunch-sized portion of tender-sliced beef or chicken cooked ' +
+                'with bell peppers, onions, and tomatoes served with guacamole salad and refried beans',
+            },
+            {
+              item: 'Burrito Carnitas',
+              description: 'One burrito filled with carnitas, topped with cheese sauce and pico de gallo ' +
+                'served with lettuce, beans or rice',
+            },
+            {
+              item: 'Fajita Taco Salad Lunch',
+              description: 'Beef or chicken',
+            }
+          ]
         },
-        {
-          item: 'Lunch Special, No. 1',
-          description: 'One chile relleno, one taco, refried beans and guacamole salad',
-        },
-        {
-          item: 'Lunch Special, No. 2',
-          description: 'One beef burrito, Spanish rice and refried beans',
-        },
-        {
-          item: 'Lunch Special, No. 3',
-          description: 'One burrito, one taco and Spanish rice',
-        },
-        {
-          item: 'Lunch Special, No. 4',
-          description: 'One chile relleno, Spanish rice and refried beans',
-        },
-        {
-          item: 'Lunch Special, No. 5',
-          description: 'One enchilada, Spanish rice and refried beans',
-        },
-        {
-          item: 'Lunch Special, No. 6',
-          description: 'One cheese quesadilla, one burrito, and guacamole salad',
-        },
-        {
-          item: 'Lunch Special, No. 7',
-          description: 'Laredo-skirt steak, choice of two scrmbled or sunny-side-up eggs, refried beans and hash browns',
-        },
-        {
-          item: 'Lunch Special, No. 8',
-          description: 'Pio-Pio-chicken fajitas, chilaquiles, choice of tow scrambled or sunny-side-up eggs and refried beans',
-        },
-        {
-          item: 'Lunch Special, No. 9',
-          description: 'La Cazuela-Two sunny-side-up eggs on top of one chicken or beef sincronizada served with refried beans and has browns with ranchero sauce',
-        },
-        {
-          item: 'A.C.P Lunch',
-          description: 'Rice with chicken topped with cheese dip',
-        },
-        {
-          item: 'Huevos Rancheros',
-          description: 'Two ranch-style eggs topped with Mexican sauce and served with Spanish rice, refried beans and choice of corn or flour tortillas',
-        },
-        {
-          item: 'Quesadilla Deluxe',
-          description: 'Flour tortilla with cheese and chicken, topped with lettuce, tomatoes, sour cream and Spanish rice',
-        },
-        {
-          item: 'Lunch Fajita Quesadilla',
-          description: 'Beef or chicken cooked with tomatoes and onions served with choice of rice or beans and guacamole salad',
-        },
-        {
-          item: 'Burrito Especial',
-          description: 'One beef-and-bean burrito topped with lettuce, tomatoes and sour cream',
-        },
-        {
-          item: 'Green Pork Burrito',
-          description: 'Burrito filled with tender pork sautéed with our homemade fresh green tomatillo sauce and servce with rice',
-        },
-        {
-          item: 'Shrimp Chimichanga Lunch',
-          description: 'Soft or fried flour tortilla filled with shrimp and beans',
-        },
-        {
-          item: 'Chimichanga Lunch',
-          description: 'Soft or fried flour tortilla filled with beef tips and beans',
-        },
-        {
-          item: 'Enchiladas Supremas Lunch',
-          description: 'One cheese and one chicken enchilada topped with lettuce and sour cream served with Spanish rice',
-        },
-        {
-          item: 'Taquitos Mexicanos Lunch',
-          description: 'Two taquitos - one chicken and one beef - served lettuce, guacamole, sour cream and Spanish rice',
-        },
-        {
-          item: 'Huevos con Chorizo',
-          description: 'Eggs scrambled with Mexican sausage served with Spanish rice, refried beans and tortillas',
-        },
-        {
-          item: 'Fajita Burrito Lunch',
-          description: 'One burrito fille with fajita-style chicken or beef ' +
-            'topped with nacho cheese, lettuce, tomatoes and guacamole served ' +
-            'with green peppers, onions, tomatoes, SPanish rice and refried beans',
-        },
-        {
-          item: 'Fajitas Lunch',
-          description: 'A lunch-sized portion of tender-sliced beef or chicken cooked ' +
-            'with bell peppers, onions, and tomatoes served with guacamole salad and refried beans',
-        },
-        {
-          item: 'Burrito Carnitas',
-          description: 'One burrito filled with carnitas, topped with cheese sauce and pico de gallo ' +
-            'served with lettuce, beans or rice',
-        },
-        {
-          item: 'Fajita Taco Salad Lunch',
-          description: 'Beef or chicken',
-        }
       ]
     }
 
@@ -215,6 +220,13 @@ function AppViewModel() {
     self.closeViews();
     self.data.locations.show(true);
     console.log('Go Locations');
+  };
+
+  self.goMenu = function() {
+    self.changeWordmarkContainer();
+    self.closeViews();
+    self.data.menu.show(true);
+    console.log('Go Menu');
   };
 
 
