@@ -29,7 +29,7 @@
       <li class="l-nav-list-item t-nav-list-item text-center" data-bind="click: goHome"><i class="fa fa-home fa-2x t-fa" aria-hidden="true"></i></li>
       <li class="l-nav-list-item t-nav-list-item text-center" data-bind="click: goAbout"><i class="fa fa-info fa-2x t-fa" aria-hidden="true"></i></li>
       <li class="l-nav-list-item t-nav-list-item text-center" data-bind="click: goLocations"><i class="fa fa-map-pin fa-2x t-fa" aria-hidden="true"></i></li>
-      <li class="l-nav-list-item t-nav-list-item text-center"><i class="fa fa-cutlery fa-2x t-fa" aria-hidden="true"></i></li>
+      <li class="l-nav-list-item t-nav-list-item text-center" data-bind="click: goMenu"><i class="fa fa-cutlery fa-2x t-fa" aria-hidden="true"></i></li>
     </ul>
   </nav>
 
@@ -59,8 +59,26 @@
               <p><span data-bind="text: city"></span>, <span data-bind="text: state"></span>
                 <span data-bind="text: zip"></span></p>
               <a data-bind="attr: { tel: phone }, text: phone"></a>
-
             </div>
+          </li>
+        </ul>
+      </div>
+    </article>
+
+
+    <article data-bind="if: data.menu.show">
+      <div class="t-about m-about" data-bind="with: data.menu">
+        <h2>Menu</h2>
+        <ul data-bind="foreach: meals">
+          <li>
+            <h3 data-bind="text: category"></h3>
+            <ul data-bind="foreach: items">
+              <li>
+                <h3 data-bind="text: item"></h3>
+                <p data-bind="text: description"></p>
+              </li>
+
+            </ul>
           </li>
 
         </ul>
