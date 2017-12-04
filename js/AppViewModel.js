@@ -56,6 +56,7 @@ function AppViewModel() {
       ]
     },
     menu: {
+      show: ko.observable(false);
       lunch: [
         {
           item: 'Speedy González',
