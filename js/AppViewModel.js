@@ -176,6 +176,7 @@ function AppViewModel() {
     self.data.about.show(false);
     self.data.home.show(false);
     self.data.locations.show(false);
+    self.data.menu.show(false);
   }
 
   // Change wordmark container to be a bar across top of page
