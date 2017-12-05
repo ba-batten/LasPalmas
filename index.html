@@ -44,7 +44,7 @@
       <div class="t-about m-about">
         <h2>About</h2>
         <img data-bind="attr: { src: data.about.img }" class="l-about-img t-about-img">
-        <p data-bind="text: data.about.text"></p>
+        <p data-bind="text: data.about.text" class="t-about-text"></p>
       </div>
     </article>
 
@@ -69,13 +69,16 @@
     <article data-bind="if: data.menu.show">
       <div class="t-about m-about" data-bind="with: data.menu">
         <h2>Menu</h2>
-        <ul data-bind="foreach: meals">
-          <li>
-            <h3 data-bind="text: category"></h3>
-            <ul data-bind="foreach: items">
+        <ul data-bind="foreach: meals" class="l-menu-list">
+          <li class="l-menu-item t-menu-item">
+            <div class="t-menu-header m-menu-header">
+              <h3 data-bind="text: category" class="l-category t-category"></h3>
+              <a href="#" class="l-show-hide">[ <span class="plus">+</span class="minus"> <span>-</span> ]</a>
+            </div>
+            <ul data-bind="foreach: items" class="t-category-list">
               <li>
-                <h3 data-bind="text: item"></h3>
-                <p data-bind="text: description"></p>
+                <h4 data-bind="text: item" class="t-menu-item-name"></h4>
+                <p data-bind="text: description" class="t-menu-text"></p>
               </li>
 
             </ul>

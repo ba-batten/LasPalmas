@@ -25,3 +25,16 @@
 .l-loc-list li {
   margin: 0 0 20px;
 }
+
+.l-menu-list {
+  color: red;
+  text-align: left;
+}
+
+.l-menu-item {
+  margin: 20px 0;
+}
+
+.l-show-hide {
+  float: right;
+}

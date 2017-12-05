@@ -37,3 +37,7 @@
 .m-address {
   display: inline-block;
 }
+
+.m-menu-header {  
+  width: 100%;
+}
