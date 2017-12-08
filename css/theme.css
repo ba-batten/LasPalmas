@@ -98,7 +98,7 @@
   font-weight: bold;
 }
 
-.t-menu-item li {
+.t-menu-item {
   background: beige;
   /*margin: 10px 0 0;*/
   padding: 10px 10px 0;
@@ -107,7 +107,7 @@
 
 .t-menu-header {
   background: beige;
-  box-shadow: 0 0 20px black;
+  /*box-shadow: 0 0 20px black;*/
 }
 
 .t-menu-text {
@@ -119,8 +119,4 @@
 .t-category {
   border-left: 5px solid red;
   padding-left: 10px;
-}
-
-.t-category-list {
-  /*background: white;*/
 }
