@@ -44,6 +44,10 @@
   background: tan;
 }
 
+.m-category-list {
+  transition: height 0.2s, overlow 0.2s;
+}
+
 .m-category-list li {
   padding-bottom: 0;
 }
