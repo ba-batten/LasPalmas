@@ -99,18 +99,21 @@
 }
 
 .t-menu-item li {
-  background: white;
+  background: beige;
   /*margin: 10px 0 0;*/
-  padding: 10px;
+  padding: 10px 10px 0;
   width: 100%;
 }
 
 .t-menu-header {
   background: beige;
+  box-shadow: 0 0 20px black;
 }
 
 .t-menu-text {
   color: black;
+  line-height: 1.5;
+  margin: 0;
 }
 
 .t-category {
@@ -119,5 +122,5 @@
 }
 
 .t-category-list {
-  background: white;
+  /*background: white;*/
 }
