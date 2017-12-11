@@ -60,6 +60,7 @@ function AppViewModel() {
       meals: [
         {
           category: 'lunch',
+          categoryID: 'lunch',
           showMenu: ko.observable(false),
           items: [
             {
@@ -170,6 +171,7 @@ function AppViewModel() {
         },
         {
           category: 'chicken',
+          categoryID: 'chicken',
           showMenu: ko.observable(false),
           items: [
             {
@@ -204,6 +206,7 @@ function AppViewModel() {
         },
         {
           category: 'beef & pork',
+          categoryID: 'beefPork',
           showMenu: ko.observable(false),
           items: [
             {
@@ -311,7 +314,7 @@ function AppViewModel() {
   };
 
   self.openCloseMenu = function(data) {
-    var element = data.category;
+    var element = data.categoryID;
     $('#' + element + ' ul').toggleClass('is-collapsed');
     $('#' + element + ' i').toggleClass('fa-caret-down fa-caret-up')
   };
