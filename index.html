@@ -71,7 +71,7 @@
       <div class="t-about m-about" data-bind="with: data.menu">
         <h2>Menu</h2>
         <ul data-bind="foreach: meals" class="l-menu-list">
-          <li class="l-menu-item t-menu-item" data-bind="attr: { id: category }">
+          <li class="l-menu-item t-menu-item" data-bind="attr: { id: categoryID }">
             <div class="t-menu-header m-menu-header">
               <h3 data-bind="text: category" class="l-category t-category"></h3>
               <a href="#" class="l-show-hide t-show-hide" data-bind="click: $root.openCloseMenu">
