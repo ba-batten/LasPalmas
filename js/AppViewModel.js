@@ -250,6 +250,57 @@ function AppViewModel() {
               description: 'Two flour totillas stuffed with thin steak cheese, tomatoes, onions, bell peppers and beans served with rice, lettuce and cheese',
             }         
           ]
+        },
+        {
+          category: 'Burritos & Enchiladas',
+          categoryID: 'burritosEnchiladas',
+          showMenu: ko.observable(false),
+          items: [
+            {
+              item: 'Burritos Deluxe',
+              description: 'Tow combination burritos - one chicken with refried beans and one beef with refried beans topped with lettuce, tomatoes and sour cream',
+            }, 
+            {
+              item: 'Burrito de Chorizo',
+              description: 'Burrito filled with our homemade Mexican sausage and green sauce served with Spanish rice and refried beans',
+            },
+            {
+              item: 'Burritos de Carnitas',
+              description: 'Fried pork burrito topped with green sauce and served with Spanish rice and refried beans',
+            }, 
+            {
+              item: 'Burritos Rancheros',
+              description: 'Two burritos filled with beef tips and topped with melted cheese and special sauce',
+            },            
+            {
+              item: 'Burritos de Carne Asada',
+              description: 'Burrito filled with skirt steak and topped with lettuce and pico de gallo, served with Spanish rice and refried beans',
+            }, 
+            {
+              item: 'Chimichanga',
+              description: 'Two soft or fried flour tortillas filled with beef tips and refried beans and topped with lettuce, tomatoes, sour cream, nacho cheese and guacamole',
+            },
+            {
+              item: '#F',
+              description: 'One chicken burrito and one chicken enchilada topped with lettuce and sour cream',
+            }, 
+            {
+              item: 'Yolandas',
+              description: 'Three chicken enchiladas served wth Spanish rice and salad',
+            }, 
+            {
+              item: 'Enchiladas Supremas',
+              description: 'Supreme combination consisting of four enchiladas, one chicken, one beef, one bean, and one cheese all topped with cheese, lettuce, tomatoes and sour cream',
+            }, 
+            {
+              item: 'Enchiladas Rancheras',
+              description: 'One cheese and one chicken enchilada with onions topped with lettuce, sour cream, tomatoes and Spanish rice',
+            }, 
+            {
+              item: 'Shrimp Chimichanga',
+              description: '',
+            },
+          ]
         }
       ]
     }
