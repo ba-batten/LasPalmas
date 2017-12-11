@@ -299,7 +299,34 @@ function AppViewModel() {
             {
               item: 'Shrimp Chimichanga',
               description: '',
+            }
+          ]
+        },
+        {
+          category: 'desserts',
+          categoryID: 'desserts',
+          showMenu: ko.observable(false),
+          items: [
+            {
+              item: 'Sopapillas',
+              description: '',
             },
+            {
+              item: 'Fried Ice Cream',
+              description: '',
+            }, 
+            {
+              item: 'Flan Mexican Custard',
+              description: '',
+            }, 
+            {
+              item: 'Cheesecake',
+              description: '',
+            }, 
+            {
+              item: 'Ice Cream Fudge Cake',
+              description: '',
+            }
           ]
         }
       ]
