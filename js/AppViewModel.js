@@ -233,7 +233,8 @@ function AppViewModel() {
 
   self.openCloseMenu = function(data) {
     var element = data.category;
-    $('#' + element).toggleClass('is-collapsed');
+    $('#' + element + ' ul').toggleClass('is-collapsed');
+    $('#' + element + ' i').toggleClass('fa-caret-down fa-caret-up')
   };
 
 
