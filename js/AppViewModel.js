@@ -60,6 +60,7 @@ function AppViewModel() {
       meals: [
         {
           category: 'lunch',
+          showMenu: ko.observable(false),
           items: [
             {
               item: 'Speedy González',
@@ -228,6 +229,12 @@ function AppViewModel() {
     self.closeViews();
     self.data.menu.show(true);
     console.log('Go Menu');
+  };
+
+  self.openCloseMenu = function(data) {
+    var element = data.category;
+    console.log(element);
+    $('#' + element).toggleClass('is-collapsed');
   };
 
 

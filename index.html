@@ -74,9 +74,13 @@
           <li class="l-menu-item t-menu-item">
             <div class="t-menu-header m-menu-header">
               <h3 data-bind="text: category" class="l-category t-category"></h3>
-              <a href="#" class="l-show-hide">[ <span class="plus">+</span class="minus"> <span>-</span> ]</a>
+              <a href="#" class="l-show-hide t-show-hide" data-bind="click: $root.openCloseMenu">
+                [
+                  <i class="fa fa-caret-down" aria-hidden="true"></i>
+                ]
+              </a>
             </div>
-            <ul data-bind="foreach: items" class="t-category-list m-category-list is-collapsed">
+            <ul data-bind="foreach: items, attr: { id: category }" class="category-list t-category-list m-category-list is-collapsed">
               <li class="m-food-item t-food-item">
                 <h4 data-bind="text: item" class="t-menu-item-name"></h4>
                 <p data-bind="text: description" class="t-menu-text"></p>

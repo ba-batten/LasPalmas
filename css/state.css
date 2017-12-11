@@ -2,3 +2,16 @@
   height: 0;
   overflow: hidden;
 }
+
+.is-expanded {
+  height: auto;
+  overflow: scroll;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.is-visible {
+  display: static;
+}
