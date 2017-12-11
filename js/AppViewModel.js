@@ -168,7 +168,6 @@ function AppViewModel() {
             }
           ]
         },
-        meals: [
         {
           category: 'chicken',
           showMenu: ko.observable(false),
@@ -176,8 +175,8 @@ function AppViewModel() {
             {
               item: 'Pollo a la Plancha',
               description: 'Chicken breast cooked on the grill and served with Spanish rice, salad and two tortillas',
-            },            
-      ]
+            }
+        }
     }
 
   };
