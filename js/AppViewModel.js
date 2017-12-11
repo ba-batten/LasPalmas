@@ -328,7 +328,52 @@ function AppViewModel() {
               description: '',
             }
           ]
-        }
+        },
+        {
+          category: 'Children\'s Menu',
+          categoryID: 'childrensMenu',
+          showMenu: ko.observable(false),
+          items: [
+            {
+              item: 'Burrito and Taco',
+              description: '',
+            },
+            {
+              item: 'Beef Taco',
+              description: 'Served with Spanish rice and refried beans',
+            },
+            {
+              item: 'Quesadilla and Enchilada',
+              description: '',
+            },
+            {
+              item: 'Kid\'s Combo',
+              description: 'Hamburger and fries',
+            },
+            {
+              item: 'Chicken Nuggets',
+              description: 'Four nuggets with fries',
+            },
+            {
+              item: 'Mini Taco Salad',
+              description: '',
+            },
+            {
+              item: 'Mini Mexican Pizza',
+              description: 'Served with rice and beans',
+            },
+            {
+              item: 'Spaguetti and Cheese Quesadilla',
+              description: '',
+            },
+            {
+              item: 'Cheese Quesadilla, Rice and Beans',
+              description: '',
+            },
+
+          ]
+        },
+        
       ]
     }
   };
