@@ -201,6 +201,52 @@ function AppViewModel() {
               description: 'Two flour totillas stuffed with shredded chicken, cheese, tomatoes, onions, bell peppers, and beans served with rice, lettuce and cheese',
             }                       
           ]
+        },
+        {
+          category: 'beef & pork',
+          showMenu: ko.observable(false),
+          items: [
+            {
+              item: 'Carnitas Dinner',
+              description: 'Pork served with lettuce, tomatoes, sliced avocado, pico de gallo, spanish rice and refried beans',
+            },
+            {
+              item: 'Taco Salad',
+              description: 'A crisp flour tortilla filled with ground beef, refried beans, lettuce, tomatoes, grated cheese and sour cream',
+            },
+            {
+              item: 'Costillas de Res',
+              description: 'Beef ribs served in a skillet with bell peppers and onions with guacamole salad, rice and beans',
+            },
+            {
+              item: 'Grande Special',
+              description: 'One of each - chalupa, chile relleno, enchilada, burrito and beef taco served with Spanish rice and refried beans',
+            },
+            {
+              item: 'Nuevo Guadalajara',
+              description: 'One tamal, two flautas, top skirt thin steak and guacamole salad',
+            },
+            {
+              item: 'Bistec a la Tampiqueña',
+              description: 'Skirt thin steak topped with roasted onions and tomatoes served with Spanish rice, refried beans, salad and tortillas',
+            },
+            {
+              item: 'Carne Asada',
+              description: 'Skirt thin steak served with Spanish rice, refired beans and pico de gallo',
+            },
+            {
+              item: 'Tacos de Carne Asada Dinner',
+              description: 'Four skirt thin steak tacos served with Spanish rice and refried beans',
+            },            
+            {
+              item: 'Bistec en Sasa Verde',
+              description: 'Skirt thin steak served with Spanish rice, refried beans and guacamole salad',
+            },
+            {
+              item: 'Steak Sincronizada',
+              description: 'Two flour totillas stuffed with thin steak cheese, tomatoes, onions, bell peppers and beans served with rice, lettuce and cheese',
+            }         
+          ]
         }
       ]
     }
