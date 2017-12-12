@@ -456,6 +456,65 @@ function AppViewModel() {
               description: '(Exclusive for two) Beef, chorizo, shrimp, carnitas and chicken cooked with bell peppers and onions and then topped with cheese and served with rice, beans, guacamole salad and pico de gallo' 
             }
           ]
+        },
+                {
+          category: "Mixed Dishes",
+          categoryID: "mixedDishes",
+          showMenu: ko.observable(false),
+          items: [
+            {
+              item: 'Mar y Tierra',
+              description: 'Six breaded shrimp and skirt steak served with spaghetti and salad' 
+            },
+            {
+              item: 'Las Palmas',
+              description: 'Chicken breast and skirt steak served with Spanish rice, refried beans and pico de gallo' 
+            },
+            {
+              item: 'Nachos Supreme',
+              description: 'Cheese nachos topped with ground beef, chopped chicken, refried beans, shredded lettuce, tomatoes and sour cream' 
+            },
+            {
+              item: 'Taquitos Mexicanos',
+              description: 'Four fried corn taquitos tightly rolled around beef and chicken served on a bed of lettuce, guacamole, tomatoes and sour cream' 
+            },
+            {
+              item: 'Shrimp Sineronizada',
+              description: 'Two flour tortillas stuffed with shrimp, cheese, tomatoes, onions and bell peppers served with lettuce and cheese' 
+            },
+            {
+              item: 'Laredo',
+              description: 'Skirt steak, choice of two scrambled or sunny-side-up eggs, refried beans and hash browns' 
+            },
+            {
+              item: 'Pio Pio',
+              description: 'Chicken fajitas, chilaquiles, choice of two scrambled or sunny-side-up eggs and refried beans' 
+            },
+            {
+              item: 'La Cazuela',
+              description: 'Two sunny-side-up eggs on top of one chicken or beef sincronizada and served with refried beans and hash browns with ranchero sauce' 
+            },
+            {
+              item: 'Grilled Chicken & Fried Shrimp',
+              description: 'Grilled chicken breast paired with six fried shrimp served with rice, fresh vegetables and mashed potatoes with brown gravy' 
+            },
+            {
+              item: 'Steak & Shrimp',
+              description: 'Skirt steak and four large grilled shrimp served with fried beans, lettuce, tomatoes, sliced avocado, onions and tortillas' 
+            },
+            {
+              item: 'A.C.P.C',
+              description: 'Rice with chicken and shrimp topped with cheese dip and served with beans' 
+            },
+            {
+              item: 'Huevos Rancheros',
+              description: 'Ranch-style eggs topped with Mexican sauce and served with Spanish rice, refried beans and choice of corn or flour tortillas' 
+            },
+            {
+              item: 'Huevos con Chorizo',
+              description: 'Eggs scrambled with Mexican sausage served with Spanish rice, refried beans and tortillas' 
+            }
+          ]
         }
       ]
     }
