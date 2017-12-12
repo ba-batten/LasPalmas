@@ -644,14 +644,62 @@ function AppViewModel() {
           ]
         },
         {
-          category: '',
-          categoryID: '',
+          category: 'Sea Food',
+          categoryID: 'seaFood',
           showMenu: ko.observable(false),
           items: [
             {
-              item: '',
-              description: '' 
+              item: 'Coctel de Camarón',
+              description: 'Shrimp served with fresh tomatoes, onions, cilantro, avocados and ketchup in a cold soup' 
             },
+            {
+              item: 'Camarones Rancheos',
+              description: 'Shrimp cooked in our special ranchero sauce served with Spanish rice, refried beans and flour tortillas' 
+            },
+            {
+              item: 'Quesadilla Rellena de Camarón',
+              description: 'A flour tortilla stuffed with shrimp and refired beans served with lettuce, guacamole, tomatoes, sour cream and Spanish rice' 
+            },
+            {
+              item: 'Camarones al Mojo de Ajo',
+              description: 'Jumbo shrimp cooked with an exquisite Mexican garlic sauce served with Spanish rice, salad and tortillas' 
+            },
+            {
+              item: 'Tostadas de Ceviche',
+              description: 'Two tostadas topped with fish that has been marinated in lime jice and diced onions, cilantro, tomatoes and jalapeño peppers' 
+            },
+            {
+              item: 'Mojarra Frita',
+              description: 'Fried whole tilapia served with Spanish rice, refried beans and tortillas then garnished with lettuce, tomatoes and avocados' 
+            },
+            {
+              item: 'A.C.C.',
+              description: 'Rice with shrimp topped with cheese dip' 
+            },
+            {
+              item: 'Fish Filet & Fried Shrimp',
+              description: 'Two 4 oz. fillets paired with four fried shrimp and served with fresh vegetables and mashed potatoes topped with brown gravy' 
+            },
+            {
+              item: 'Jumbo Shrimp',
+              description: 'Eight grilled shrimp with grilled onions and bell peppers served with salad and Spanish rice' 
+            },
+            {
+              item: 'Grilled Fish Fillet',
+              description: 'Served with rice, salad and tortillas' 
+            },
+            {
+              item: 'Fish Tacos Dinner',
+              description: 'Fou grilled fish tacos topped with onion and cilantro and served with rice and beans' 
+            },
+            {
+              item: 'Shrimp Chimichanga',
+              description: 'Two soft or fried flour tortillas filled with shrimp and refried beans then topped with lettuce, tomatoes, sour cream, nacho cheese and guacamole' 
+            },
+            {
+              item: 'Shrimp Sincronizada',
+              description: 'Tow flour tortillas stuffed with shrimp, cheese, tomatoes, onions, bell peppers and beans then served with rice, lettuce cheese'
+            }
           ]
         },
       ]
