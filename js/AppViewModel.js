@@ -764,7 +764,30 @@ function AppViewModel() {
               description: '' 
             }
           ]
-        }
+        },
+        {
+          category: 'Quesadillas',
+          categoryID: 'quesadillas',
+          showMenu: ko.observable(false),
+          items: [
+            {
+              item: 'Quesadilla Rellena',
+              description: 'A grilled flour tortilla stuffed with cheese, chopped beef and refried beans served with sour cream, lettuce, guacamole and Spanish rice' 
+            },
+            {
+              item: 'Spinach & Mushroom Quesadilla',
+              description: 'A flour tortilla stuffed with cheese, spinach and mushrooms served with lettuce, guacamole, sour cream and Spanish rice' 
+            },
+            {
+              item: 'Dinner Veggie Quesadilla',
+              description: 'A flour tortilla filled with cheese and seasoned zucchini, brocolli and squash cooked until tender with olive oil and grilld with bell peppers and onions' 
+            },
+            {
+              item: 'Fajita Quesadilla',
+              description: 'A grilled flour tortilla folded and filled with fajita meat (steak or chicken) and served with sour cream, lettuce, guacamole and Spanish rice or black beans' 
+            },
+          ]
+        },
       ]
     }
   };
