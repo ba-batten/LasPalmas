@@ -810,6 +810,53 @@ function AppViewModel() {
               description: '' 
             }
           ]
+        },
+        {
+          category: 'Vegetarian Dishes',
+          categoryID: 'vegetarianDishes',
+          showMenu: ko.observable(false),
+          items: [
+            {
+              item: '1. One bean burrito, one cheese enchilada and one bean tostada with cheese',
+              description: '' 
+            },
+            {
+              item: '2. One chalupa, one cheese enchilada, and refried beans',
+              description: '' 
+            },
+            {
+              item: '3. One bean burrito, one quesadilla and one chalupa',
+              description: '' 
+            },
+            {
+              item: '4. One chalupa, one cheese enchilada and Spanish rice',
+              description: '' 
+            },
+            {
+              item: '5. Two chiles poblanos, Spanish rice and refried beans',
+              description: '' 
+            },
+            {
+              item: '6. Two chalupas and Spanish rice',
+              description: '' 
+            },
+            {
+              item: '7. One bean burrito, one chalupa with refried beans',
+              description: '' 
+            },
+            {
+              item: '8. One potato burrito, one spinach enchilada and Spanish rice',
+              description: '' 
+            },
+            {
+              item: '9. One mushroom quesadilla with cheese, Spanish rice and salad',
+              description: '' 
+            },
+            {
+              item: '10 One spinach quesadilla, one bean enchilada and Spanish rice',
+              description: '' 
+            }
+          ]
         }
       ]
     }
