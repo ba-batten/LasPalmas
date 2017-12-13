@@ -785,9 +785,32 @@ function AppViewModel() {
             {
               item: 'Fajita Quesadilla',
               description: 'A grilled flour tortilla folded and filled with fajita meat (steak or chicken) and served with sour cream, lettuce, guacamole and Spanish rice or black beans' 
-            },
+            }
           ]
         },
+        {
+          category: 'Soups & Salads',
+          categoryID: 'soupsSalads',
+          showMenu: ko.observable(false),
+          items: [
+            {
+              item: 'Taco Salad Lunch',
+              description: 'A crisp flour tortilla filled with ground beef, refried beans, lettuce, tomatoes, grated cheese and sour cream' 
+            },
+            {
+              item: 'Las Palmas Salad',
+              description: 'Grilled chicken with tomatoes, red onions, cucumbers, croutons and shredded cheese' 
+            },
+            {
+              item: 'Tossed Salad',
+              description: 'Lettuce, tomatoes, cucumber, red cabbage, carrot and croutons' 
+            },
+            {
+              item: 'Guacamole Salad',
+              description: '' 
+            }
+          ]
+        }
       ]
     }
   };
