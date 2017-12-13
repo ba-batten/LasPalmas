@@ -190,333 +190,6 @@ function AppViewModel() {
           ]
         },
         {
-          category: "chicken",
-          categoryID: "chicken",
-          showMenu: ko.observable(false),
-          items: [
-            {
-              item: "Pollo a la Plancha",
-              description:
-                "Chicken breast cooked on the grill and served with Spanish rice, salad and two tortillas"
-            },
-            {
-              item: "Mole Ranchero",
-              description:
-                "Chicken breast topped with mole sauce and served with Spanish rice, guacamole salad, and two tortillas"
-            },
-            {
-              item: "Chilaquiles Mexicanos",
-              description:
-                "Tortilla chips covered with special sauce chicken and cheese served with Spanish rice, lettuce, sour cream and guacamole"
-            },
-            {
-              item: "Pollo a la Crema",
-              description:
-                "Grilled chicken tenders served with sour cream, rice, beans, and tortillas"
-            },
-            {
-              item: "Pollo Chipotle",
-              description:
-                "Grilled chicken breast covered with home made chiptle cream sauce and served with rice, refried beans, pico de gallo, tortillas and guacamole salad on the side"
-            },
-            {
-              item: "A.C.P.",
-              description: "Rice with chicken topeed with cheese dip"
-            },
-            {
-              item: "Chori-Pollo",
-              description:
-                "Two flour totillas stuffed with shredded chicken, cheese, tomatoes, onions, bell peppers, and beans served with rice, lettuce and cheese"
-            }
-          ]
-        },
-        {
-          category: "beef & pork",
-          categoryID: "beefPork",
-          showMenu: ko.observable(false),
-          items: [
-            {
-              item: "Carnitas Dinner",
-              description:
-                "Pork served with lettuce, tomatoes, sliced avocado, pico de gallo, spanish rice and refried beans"
-            },
-            {
-              item: "Taco Salad",
-              description:
-                "A crisp flour tortilla filled with ground beef, refried beans, lettuce, tomatoes, grated cheese and sour cream"
-            },
-            {
-              item: "Costillas de Res",
-              description:
-                "Beef ribs served in a skillet with bell peppers and onions with guacamole salad, rice and beans"
-            },
-            {
-              item: "Grande Special",
-              description:
-                "One of each - chalupa, chile relleno, enchilada, burrito and beef taco served with Spanish rice and refried beans"
-            },
-            {
-              item: "Nuevo Guadalajara",
-              description:
-                "One tamal, two flautas, top skirt thin steak and guacamole salad"
-            },
-            {
-              item: "Bistec a la Tampiqueña",
-              description:
-                "Skirt thin steak topped with roasted onions and tomatoes served with Spanish rice, refried beans, salad and tortillas"
-            },
-            {
-              item: "Carne Asada",
-              description:
-                "Skirt thin steak served with Spanish rice, refired beans and pico de gallo"
-            },
-            {
-              item: "Tacos de Carne Asada Dinner",
-              description:
-                "Four skirt thin steak tacos served with Spanish rice and refried beans"
-            },
-            {
-              item: "Bistec en Sasa Verde",
-              description:
-                "Skirt thin steak served with Spanish rice, refried beans and guacamole salad"
-            },
-            {
-              item: "Steak Sincronizada",
-              description:
-                "Two flour totillas stuffed with thin steak cheese, tomatoes, onions, bell peppers and beans served with rice, lettuce and cheese"
-            }
-          ]
-        },
-        {
-          category: "Burritos & Enchiladas",
-          categoryID: "burritosEnchiladas",
-          showMenu: ko.observable(false),
-          items: [
-            {
-              item: "Burritos Deluxe",
-              description:
-                "Tow combination burritos - one chicken with refried beans and one beef with refried beans topped with lettuce, tomatoes and sour cream"
-            },
-            {
-              item: "Burrito de Chorizo",
-              description:
-                "Burrito filled with our homemade Mexican sausage and green sauce served with Spanish rice and refried beans"
-            },
-            {
-              item: "Burritos de Carnitas",
-              description:
-                "Fried pork burrito topped with green sauce and served with Spanish rice and refried beans"
-            },
-            {
-              item: "Burritos Rancheros",
-              description:
-                "Two burritos filled with beef tips and topped with melted cheese and special sauce"
-            },
-            {
-              item: "Burritos de Carne Asada",
-              description:
-                "Burrito filled with skirt steak and topped with lettuce and pico de gallo, served with Spanish rice and refried beans"
-            },
-            {
-              item: "Chimichanga",
-              description:
-                "Two soft or fried flour tortillas filled with beef tips and refried beans and topped with lettuce, tomatoes, sour cream, nacho cheese and guacamole"
-            },
-            {
-              item: "#F",
-              description:
-                "One chicken burrito and one chicken enchilada topped with lettuce and sour cream"
-            },
-            {
-              item: "Yolandas",
-              description:
-                "Three chicken enchiladas served wth Spanish rice and salad"
-            },
-            {
-              item: "Enchiladas Supremas",
-              description:
-                "Supreme combination consisting of four enchiladas, one chicken, one beef, one bean, and one cheese all topped with cheese, lettuce, tomatoes and sour cream"
-            },
-            {
-              item: "Enchiladas Rancheras",
-              description:
-                "One cheese and one chicken enchilada with onions topped with lettuce, sour cream, tomatoes and Spanish rice"
-            },
-            {
-              item: "Shrimp Chimichanga",
-              description: ""
-            }
-          ]
-        },
-        {
-          category: "desserts",
-          categoryID: "desserts",
-          showMenu: ko.observable(false),
-          items: [
-            {
-              item: "Sopapillas",
-              description: ""
-            },
-            {
-              item: "Fried Ice Cream",
-              description: ""
-            },
-            {
-              item: "Flan Mexican Custard",
-              description: ""
-            },
-            {
-              item: "Cheesecake",
-              description: ""
-            },
-            {
-              item: "Ice Cream Fudge Cake",
-              description: ""
-            }
-          ]
-        },
-        {
-          category: "Children's Menu",
-          categoryID: "childrensMenu",
-          showMenu: ko.observable(false),
-          items: [
-            {
-              item: "Burrito and Taco",
-              description: ""
-            },
-            {
-              item: "Beef Taco",
-              description: "Served with Spanish rice and refried beans"
-            },
-            {
-              item: "Quesadilla and Enchilada",
-              description: ""
-            },
-            {
-              item: "Kid's Combo",
-              description: "Hamburger and fries"
-            },
-            {
-              item: "Chicken Nuggets",
-              description: "Four nuggets with fries"
-            },
-            {
-              item: "Mini Taco Salad",
-              description: ""
-            },
-            {
-              item: "Mini Mexican Pizza",
-              description: "Served with rice and beans"
-            },
-            {
-              item: "Spaguetti and Cheese Quesadilla",
-              description: ""
-            },
-            {
-              item: "Cheese Quesadilla, Rice and Beans",
-              description: ""
-            }
-          ]
-        },
-        {
-          category: "fajitas",
-          categoryID: "fajitas",
-          showMenu: ko.observable(false),
-          items: [
-            {
-              item: 'Fajitas',
-              description: 'Tender sliced beef or chicken cooked with bell peppers, onions and tomatoes served with guacamole salad and refried beans' 
-            },
-            {
-              item: 'Mixed Fajitas',
-              description: 'Tender-sliced beef and chicken cooked with bell peppers, onions and tomatoes served with guacamole salad and refried beans' 
-            },
-            {
-              item: 'Fajitas Tejanas',
-              description: 'Tender-sliced beef, chicken and shrimp cooked with bell peppers, onions and tomatoes served with guacamole salad and refried beans' 
-            },
-            {
-              item: 'Fajitas Supremas',
-              description: 'Tender-sliced beef and chicken cooked with mushrooms, red onions and bell peppers served with guacamole salad and refried beans' 
-            },
-            {
-              item: 'Fajitas Burritos',
-              description: 'Two burritos filled with fajitas-style chicken or beef and topped with macho cheese, lettuce, tomatoes and guacamole and then served with green peppers, onions, tomatoes and your choice of Spanish rice or refried beans' 
-            },
-            {
-              item: 'Fajita Nachos',
-              description: 'Fajita style chicken or steak topped with nacho cheese and melted shredded cheese' 
-            },
-            {
-              item: 'Fajitas Mexicanas',
-              description: 'Shrimp grilled with bell peppers, tomatoes and onions served with guacamole salad and refried beans' 
-            },
-            {
-              item: 'Fajitas Parrillada',
-              description: '(Exclusive for two) Beef, chorizo, shrimp, carnitas and chicken cooked with bell peppers and onions and then topped with cheese and served with rice, beans, guacamole salad and pico de gallo' 
-            }
-          ]
-        },
-        {
-          category: "Mixed Dishes",
-          categoryID: "mixedDishes",
-          showMenu: ko.observable(false),
-          items: [
-            {
-              item: 'Mar y Tierra',
-              description: 'Six breaded shrimp and skirt steak served with spaghetti and salad' 
-            },
-            {
-              item: 'Las Palmas',
-              description: 'Chicken breast and skirt steak served with Spanish rice, refried beans and pico de gallo' 
-            },
-            {
-              item: 'Nachos Supreme',
-              description: 'Cheese nachos topped with ground beef, chopped chicken, refried beans, shredded lettuce, tomatoes and sour cream' 
-            },
-            {
-              item: 'Taquitos Mexicanos',
-              description: 'Four fried corn taquitos tightly rolled around beef and chicken served on a bed of lettuce, guacamole, tomatoes and sour cream' 
-            },
-            {
-              item: 'Shrimp Sineronizada',
-              description: 'Two flour tortillas stuffed with shrimp, cheese, tomatoes, onions and bell peppers served with lettuce and cheese' 
-            },
-            {
-              item: 'Laredo',
-              description: 'Skirt steak, choice of two scrambled or sunny-side-up eggs, refried beans and hash browns' 
-            },
-            {
-              item: 'Pio Pio',
-              description: 'Chicken fajitas, chilaquiles, choice of two scrambled or sunny-side-up eggs and refried beans' 
-            },
-            {
-              item: 'La Cazuela',
-              description: 'Two sunny-side-up eggs on top of one chicken or beef sincronizada and served with refried beans and hash browns with ranchero sauce' 
-            },
-            {
-              item: 'Grilled Chicken & Fried Shrimp',
-              description: 'Grilled chicken breast paired with six fried shrimp served with rice, fresh vegetables and mashed potatoes with brown gravy' 
-            },
-            {
-              item: 'Steak & Shrimp',
-              description: 'Skirt steak and four large grilled shrimp served with fried beans, lettuce, tomatoes, sliced avocado, onions and tortillas' 
-            },
-            {
-              item: 'A.C.P.C',
-              description: 'Rice with chicken and shrimp topped with cheese dip and served with beans' 
-            },
-            {
-              item: 'Huevos Rancheros',
-              description: 'Ranch-style eggs topped with Mexican sauce and served with Spanish rice, refried beans and choice of corn or flour tortillas' 
-            },
-            {
-              item: 'Huevos con Chorizo',
-              description: 'Eggs scrambled with Mexican sausage served with Spanish rice, refried beans and tortillas' 
-            }
-          ]
-        },
-        {
           category: 'Combination Dinners',
           categoryID: 'comboDinners',
           showMenu: ko.observable(false),
@@ -644,7 +317,265 @@ function AppViewModel() {
           ]
         },
         {
-          category: 'Sea Food',
+          category: "fajitas",
+          categoryID: "fajitas",
+          showMenu: ko.observable(false),
+          items: [
+            {
+              item: 'Fajitas',
+              description: 'Tender sliced beef or chicken cooked with bell peppers, onions and tomatoes served with guacamole salad and refried beans' 
+            },
+            {
+              item: 'Mixed Fajitas',
+              description: 'Tender-sliced beef and chicken cooked with bell peppers, onions and tomatoes served with guacamole salad and refried beans' 
+            },
+            {
+              item: 'Fajitas Tejanas',
+              description: 'Tender-sliced beef, chicken and shrimp cooked with bell peppers, onions and tomatoes served with guacamole salad and refried beans' 
+            },
+            {
+              item: 'Fajitas Supremas',
+              description: 'Tender-sliced beef and chicken cooked with mushrooms, red onions and bell peppers served with guacamole salad and refried beans' 
+            },
+            {
+              item: 'Fajitas Burritos',
+              description: 'Two burritos filled with fajitas-style chicken or beef and topped with macho cheese, lettuce, tomatoes and guacamole and then served with green peppers, onions, tomatoes and your choice of Spanish rice or refried beans' 
+            },
+            {
+              item: 'Fajita Nachos',
+              description: 'Fajita style chicken or steak topped with nacho cheese and melted shredded cheese' 
+            },
+            {
+              item: 'Fajitas Mexicanas',
+              description: 'Shrimp grilled with bell peppers, tomatoes and onions served with guacamole salad and refried beans' 
+            },
+            {
+              item: 'Fajitas Parrillada',
+              description: '(Exclusive for two) Beef, chorizo, shrimp, carnitas and chicken cooked with bell peppers and onions and then topped with cheese and served with rice, beans, guacamole salad and pico de gallo' 
+            }
+          ]
+        },
+        {
+          category: "chicken",
+          categoryID: "chicken",
+          showMenu: ko.observable(false),
+          items: [
+            {
+              item: "Pollo a la Plancha",
+              description:
+                "Chicken breast cooked on the grill and served with Spanish rice, salad and two tortillas"
+            },
+            {
+              item: "Mole Ranchero",
+              description:
+                "Chicken breast topped with mole sauce and served with Spanish rice, guacamole salad, and two tortillas"
+            },
+            {
+              item: "Chilaquiles Mexicanos",
+              description:
+                "Tortilla chips covered with special sauce chicken and cheese served with Spanish rice, lettuce, sour cream and guacamole"
+            },
+            {
+              item: "Pollo a la Crema",
+              description:
+                "Grilled chicken tenders served with sour cream, rice, beans, and tortillas"
+            },
+            {
+              item: "Pollo Chipotle",
+              description:
+                "Grilled chicken breast covered with home made chiptle cream sauce and served with rice, refried beans, pico de gallo, tortillas and guacamole salad on the side"
+            },
+            {
+              item: "A.C.P.",
+              description: "Rice with chicken topeed with cheese dip"
+            },
+            {
+              item: "Chori-Pollo",
+              description:
+                "Two flour totillas stuffed with shredded chicken, cheese, tomatoes, onions, bell peppers, and beans served with rice, lettuce and cheese"
+            }
+          ]
+        },
+        {
+          category: "beef & pork",
+          categoryID: "beefPork",
+          showMenu: ko.observable(false),
+          items: [
+            {
+              item: "Carnitas Dinner",
+              description:
+                "Pork served with lettuce, tomatoes, sliced avocado, pico de gallo, spanish rice and refried beans"
+            },
+            {
+              item: "Taco Salad",
+              description:
+                "A crisp flour tortilla filled with ground beef, refried beans, lettuce, tomatoes, grated cheese and sour cream"
+            },
+            {
+              item: "Costillas de Res",
+              description:
+                "Beef ribs served in a skillet with bell peppers and onions with guacamole salad, rice and beans"
+            },
+            {
+              item: "Grande Special",
+              description:
+                "One of each - chalupa, chile relleno, enchilada, burrito and beef taco served with Spanish rice and refried beans"
+            },
+            {
+              item: "Nuevo Guadalajara",
+              description:
+                "One tamal, two flautas, top skirt thin steak and guacamole salad"
+            },
+            {
+              item: "Bistec a la Tampiqueña",
+              description:
+                "Skirt thin steak topped with roasted onions and tomatoes served with Spanish rice, refried beans, salad and tortillas"
+            },
+            {
+              item: "Carne Asada",
+              description:
+                "Skirt thin steak served with Spanish rice, refired beans and pico de gallo"
+            },
+            {
+              item: "Tacos de Carne Asada Dinner",
+              description:
+                "Four skirt thin steak tacos served with Spanish rice and refried beans"
+            },
+            {
+              item: "Bistec en Sasa Verde",
+              description:
+                "Skirt thin steak served with Spanish rice, refried beans and guacamole salad"
+            },
+            {
+              item: "Steak Sincronizada",
+              description:
+                "Two flour totillas stuffed with thin steak cheese, tomatoes, onions, bell peppers and beans served with rice, lettuce and cheese"
+            }
+          ]
+        },
+        {
+          category: "burritos & enchiladas",
+          categoryID: "burritosEnchiladas",
+          showMenu: ko.observable(false),
+          items: [
+            {
+              item: "Burritos Deluxe",
+              description:
+                "Tow combination burritos - one chicken with refried beans and one beef with refried beans topped with lettuce, tomatoes and sour cream"
+            },
+            {
+              item: "Burrito de Chorizo",
+              description:
+                "Burrito filled with our homemade Mexican sausage and green sauce served with Spanish rice and refried beans"
+            },
+            {
+              item: "Burritos de Carnitas",
+              description:
+                "Fried pork burrito topped with green sauce and served with Spanish rice and refried beans"
+            },
+            {
+              item: "Burritos Rancheros",
+              description:
+                "Two burritos filled with beef tips and topped with melted cheese and special sauce"
+            },
+            {
+              item: "Burritos de Carne Asada",
+              description:
+                "Burrito filled with skirt steak and topped with lettuce and pico de gallo, served with Spanish rice and refried beans"
+            },
+            {
+              item: "Chimichanga",
+              description:
+                "Two soft or fried flour tortillas filled with beef tips and refried beans and topped with lettuce, tomatoes, sour cream, nacho cheese and guacamole"
+            },
+            {
+              item: "#F",
+              description:
+                "One chicken burrito and one chicken enchilada topped with lettuce and sour cream"
+            },
+            {
+              item: "Yolandas",
+              description:
+                "Three chicken enchiladas served wth Spanish rice and salad"
+            },
+            {
+              item: "Enchiladas Supremas",
+              description:
+                "Supreme combination consisting of four enchiladas, one chicken, one beef, one bean, and one cheese all topped with cheese, lettuce, tomatoes and sour cream"
+            },
+            {
+              item: "Enchiladas Rancheras",
+              description:
+                "One cheese and one chicken enchilada with onions topped with lettuce, sour cream, tomatoes and Spanish rice"
+            },
+            {
+              item: "Shrimp Chimichanga",
+              description: ""
+            }
+          ]
+        },
+        {
+          category: "mixed dishes",
+          categoryID: "mixedDishes",
+          showMenu: ko.observable(false),
+          items: [
+            {
+              item: 'Mar y Tierra',
+              description: 'Six breaded shrimp and skirt steak served with spaghetti and salad' 
+            },
+            {
+              item: 'Las Palmas',
+              description: 'Chicken breast and skirt steak served with Spanish rice, refried beans and pico de gallo' 
+            },
+            {
+              item: 'Nachos Supreme',
+              description: 'Cheese nachos topped with ground beef, chopped chicken, refried beans, shredded lettuce, tomatoes and sour cream' 
+            },
+            {
+              item: 'Taquitos Mexicanos',
+              description: 'Four fried corn taquitos tightly rolled around beef and chicken served on a bed of lettuce, guacamole, tomatoes and sour cream' 
+            },
+            {
+              item: 'Shrimp Sineronizada',
+              description: 'Two flour tortillas stuffed with shrimp, cheese, tomatoes, onions and bell peppers served with lettuce and cheese' 
+            },
+            {
+              item: 'Laredo',
+              description: 'Skirt steak, choice of two scrambled or sunny-side-up eggs, refried beans and hash browns' 
+            },
+            {
+              item: 'Pio Pio',
+              description: 'Chicken fajitas, chilaquiles, choice of two scrambled or sunny-side-up eggs and refried beans' 
+            },
+            {
+              item: 'La Cazuela',
+              description: 'Two sunny-side-up eggs on top of one chicken or beef sincronizada and served with refried beans and hash browns with ranchero sauce' 
+            },
+            {
+              item: 'Grilled Chicken & Fried Shrimp',
+              description: 'Grilled chicken breast paired with six fried shrimp served with rice, fresh vegetables and mashed potatoes with brown gravy' 
+            },
+            {
+              item: 'Steak & Shrimp',
+              description: 'Skirt steak and four large grilled shrimp served with fried beans, lettuce, tomatoes, sliced avocado, onions and tortillas' 
+            },
+            {
+              item: 'A.C.P.C',
+              description: 'Rice with chicken and shrimp topped with cheese dip and served with beans' 
+            },
+            {
+              item: 'Huevos Rancheros',
+              description: 'Ranch-style eggs topped with Mexican sauce and served with Spanish rice, refried beans and choice of corn or flour tortillas' 
+            },
+            {
+              item: 'Huevos con Chorizo',
+              description: 'Eggs scrambled with Mexican sausage served with Spanish rice, refried beans and tortillas' 
+            }
+          ]
+        },
+
+        {
+          category: 'sea food',
           categoryID: 'seaFood',
           showMenu: ko.observable(false),
           items: [
@@ -766,7 +697,7 @@ function AppViewModel() {
           ]
         },
         {
-          category: 'Quesadillas',
+          category: 'quesadillas',
           categoryID: 'quesadillas',
           showMenu: ko.observable(false),
           items: [
@@ -789,30 +720,7 @@ function AppViewModel() {
           ]
         },
         {
-          category: 'Soups & Salads',
-          categoryID: 'soupsSalads',
-          showMenu: ko.observable(false),
-          items: [
-            {
-              item: 'Taco Salad Lunch',
-              description: 'A crisp flour tortilla filled with ground beef, refried beans, lettuce, tomatoes, grated cheese and sour cream' 
-            },
-            {
-              item: 'Las Palmas Salad',
-              description: 'Grilled chicken with tomatoes, red onions, cucumbers, croutons and shredded cheese' 
-            },
-            {
-              item: 'Tossed Salad',
-              description: 'Lettuce, tomatoes, cucumber, red cabbage, carrot and croutons' 
-            },
-            {
-              item: 'Guacamole Salad',
-              description: '' 
-            }
-          ]
-        },
-        {
-          category: 'Vegetarian Dishes',
+          category: 'vegetarian dishes',
           categoryID: 'vegetarianDishes',
           showMenu: ko.observable(false),
           items: [
@@ -857,7 +765,100 @@ function AppViewModel() {
               description: '' 
             }
           ]
-        }
+        },
+        {
+          category: 'soups & salads',
+          categoryID: 'soupsSalads',
+          showMenu: ko.observable(false),
+          items: [
+            {
+              item: 'Taco Salad Lunch',
+              description: 'A crisp flour tortilla filled with ground beef, refried beans, lettuce, tomatoes, grated cheese and sour cream' 
+            },
+            {
+              item: 'Las Palmas Salad',
+              description: 'Grilled chicken with tomatoes, red onions, cucumbers, croutons and shredded cheese' 
+            },
+            {
+              item: 'Tossed Salad',
+              description: 'Lettuce, tomatoes, cucumber, red cabbage, carrot and croutons' 
+            },
+            {
+              item: 'Guacamole Salad',
+              description: '' 
+            }
+          ]
+        },
+        {
+          category: "desserts",
+          categoryID: "desserts",
+          showMenu: ko.observable(false),
+          items: [
+            {
+              item: "Sopapillas",
+              description: ""
+            },
+            {
+              item: "Fried Ice Cream",
+              description: ""
+            },
+            {
+              item: "Flan Mexican Custard",
+              description: ""
+            },
+            {
+              item: "Cheesecake",
+              description: ""
+            },
+            {
+              item: "Ice Cream Fudge Cake",
+              description: ""
+            }
+          ]
+        },
+        {
+          category: "children's menu",
+          categoryID: "childrensMenu",
+          showMenu: ko.observable(false),
+          items: [
+            {
+              item: "Burrito and Taco",
+              description: ""
+            },
+            {
+              item: "Beef Taco",
+              description: "Served with Spanish rice and refried beans"
+            },
+            {
+              item: "Quesadilla and Enchilada",
+              description: ""
+            },
+            {
+              item: "Kid's Combo",
+              description: "Hamburger and fries"
+            },
+            {
+              item: "Chicken Nuggets",
+              description: "Four nuggets with fries"
+            },
+            {
+              item: "Mini Taco Salad",
+              description: ""
+            },
+            {
+              item: "Mini Mexican Pizza",
+              description: "Served with rice and beans"
+            },
+            {
+              item: "Spaguetti and Cheese Quesadilla",
+              description: ""
+            },
+            {
+              item: "Cheese Quesadilla, Rice and Beans",
+              description: ""
+            }
+          ]
+        },
       ]
     }
   };
