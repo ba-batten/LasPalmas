@@ -702,6 +702,69 @@ function AppViewModel() {
             }
           ]
         },
+        {
+          category: 'Appetizers',
+          categoryID: 'appetizers',
+          showMenu: ko.observable(false),
+          items: [
+            {
+              item: 'Nachos',
+              description: '' 
+            },
+            {
+              item: 'Refried Bean Nachos',
+              description: '' 
+            },
+            {
+              item: 'Beef or Chicken Nachos',
+              description: '' 
+            },
+            {
+              item: 'Cheese Dip',
+              description: '' 
+            },
+            {
+              item: 'Bean Dip',
+              description: '' 
+            },
+            {
+              item: 'Guacamole Dip',
+              description: '' 
+            },
+            {
+              item: 'Choriqueso Dip',
+              description: 'Cheese dip with Mexican sausage' 
+            },
+            {
+              item: 'Beef or Chicken Quesadilla',
+              description: '' 
+            },
+            {
+              item: 'Grilled Chicken or Beef Quesadilla',
+              description: '' 
+            },
+            {
+              item: 'Chorizo Quesadilla',
+              description: '' 
+            },
+            {
+              item: 'Shrimp Quesadilla',
+              description: '' 
+            },
+            {
+              item: 'Mushroom Quesadilla',
+              description: '' 
+            },
+            {
+              item: 'Spinach Quesadilla',
+              description: '' 
+            },
+            {
+              item: 'Pico de Gallo',
+              description: '' 
+            }
+          ]
+        }
       ]
     }
   };
