@@ -101,12 +101,12 @@
 .t-menu-item {
   background: #F9F9EB;
   margin: 5px 0;
-  padding: 7px;
+  /* padding: 7px; */
   width: 100%;
 }
 
 .t-menu-header {
-  /*background: beige;*/
+  background: linear-gradient(#E3E3D6, #F9F9EB);
   /*box-shadow: 0 0 20px black;*/
 }
 
