@@ -190,133 +190,6 @@ function AppViewModel() {
           ]
         },
         {
-          category: 'Combination Dinners',
-          categoryID: 'comboDinners',
-          pic: '',
-          items: [
-            {
-              item: '1. One taco, two enchilada and Spanish rice',
-              description: ''
-            },
-            {
-              item: '2. One taco, one enchilada and one chalupa',
-              description: ''
-            },
-            {
-              item: '3. One enchilada, two tacos and one chile relleno',
-              description: ''
-            },
-            {
-              item: '4. Two tacos, one enchilada and chile con queso',
-              description: ''
-            },
-            {
-              item: '5. Two beef enchiladas, Spanish rice and refried beans',
-              description: ''
-            },
-            {
-              item: '6. One beef enchilada, one taco, Spanish rice and refried beans',
-              description: ''
-            },
-            {
-              item: '7. One enchilada, one chile relleno, Spanish rice and refried beans',
-              description: ''
-            },
-            {
-              item: '8. One enchilada, one tamal, SPanish rice and refried beans',
-              description: ''
-            },
-            {
-              item: '9. One burrito, one enchilada and Spanish rice',
-              description: ''
-            },
-            {
-              item: '10. Two beef tacos, Spanish rice and refried beans',
-              description: ''
-            },
-            {
-              item: '11. One beef burrito, one taco and one enchilada',
-              description: ''
-            },
-            {
-              item: '12. One chalupa, one chile relleno and refried beans0',
-              description: ''
-            },
-            {
-              item: '13. One enchilada, one beef burrito and one chile relleno',
-              description: ''
-            },
-            {
-              item: '14. Two tacos, one chile relleno and one chalupa',
-              description: ''
-            },
-            {
-              item: '15. One beef burrito, one enchilada and one tamal',
-              description: ''
-            },
-            {
-              item: '16. One chalupa, one chile relleno and one beef burrito',
-              description: ''
-            },
-            {
-              item: '17. One burrito, one enchilada, Spanish rice and refried beans',
-              description: ''
-            },
-            {
-              item: '18. One chalupa, one chile relleno and one enchilada',
-              description: ''
-            },
-            {
-              item: '19. One chalupa, one beef burrito and one enchilada',
-              description: ''
-            },
-            {
-              item: '20. One chile relleno, one taco, Spanish rice and refired beans',
-              description: ''
-            },
-            {
-              item: '21. One taco, one burrito and one chalupa',
-              description: ''
-            },
-            {
-              item: '22. One burrito, one chile relleno and one taco',
-              description: ''
-            },
-            {
-              item: '23. One taco, one beef burrito, Spanish rice an drefried beans',
-              description: ''
-            },
-            {
-              item: '24. One chile relleno, one beef burrito and Spanish rice',
-              description: ''
-            },
-            {
-              item: '25. One chalupa, one taco and one tostada',
-              description: ''
-            },
-            {
-              item: '26. One burrito, one chicken quesadilla and Spanish rice',
-              description: ''
-            },
-            {
-              item: '27. One tostada, one enchilada and one chile relleno',
-              description: ''
-            },
-            {
-              item: '28. One burrito, one tamal and one chicken quesadilla',
-              description: ''
-            },
-            {
-              item: '29. One enchilada, one chalupa and one cheese quesadilla',
-              description: ''
-            },
-            {
-              item: '30. Two burritos and Spanish rice',
-              description: ''
-            }
-          ]
-        },
-        {
           category: "fajitas",
           categoryID: "fajitas",
           pic: 'images/fajitas.png',
@@ -454,67 +327,6 @@ function AppViewModel() {
           ]
         },
         {
-          category: "burritos & enchiladas",
-          categoryID: "burritosEnchiladas",
-          pic: '',
-          items: [
-            {
-              item: "Burritos Deluxe",
-              description:
-                "Tow combination burritos - one chicken with refried beans and one beef with refried beans topped with lettuce, tomatoes and sour cream"
-            },
-            {
-              item: "Burrito de Chorizo",
-              description:
-                "Burrito filled with our homemade Mexican sausage and green sauce served with Spanish rice and refried beans"
-            },
-            {
-              item: "Burritos de Carnitas",
-              description:
-                "Fried pork burrito topped with green sauce and served with Spanish rice and refried beans"
-            },
-            {
-              item: "Burritos Rancheros",
-              description:
-                "Two burritos filled with beef tips and topped with melted cheese and special sauce"
-            },
-            {
-              item: "Burritos de Carne Asada",
-              description:
-                "Burrito filled with skirt steak and topped with lettuce and pico de gallo, served with Spanish rice and refried beans"
-            },
-            {
-              item: "Chimichanga",
-              description:
-                "Two soft or fried flour tortillas filled with beef tips and refried beans and topped with lettuce, tomatoes, sour cream, nacho cheese and guacamole"
-            },
-            {
-              item: "#F",
-              description:
-                "One chicken burrito and one chicken enchilada topped with lettuce and sour cream"
-            },
-            {
-              item: "Yolandas",
-              description:
-                "Three chicken enchiladas served wth Spanish rice and salad"
-            },
-            {
-              item: "Enchiladas Supremas",
-              description:
-                "Supreme combination consisting of four enchiladas, one chicken, one beef, one bean, and one cheese all topped with cheese, lettuce, tomatoes and sour cream"
-            },
-            {
-              item: "Enchiladas Rancheras",
-              description:
-                "One cheese and one chicken enchilada with onions topped with lettuce, sour cream, tomatoes and Spanish rice"
-            },
-            {
-              item: "Shrimp Chimichanga",
-              description: ""
-            }
-          ]
-        },
-        {
           category: "mixed dishes",
           categoryID: "mixedDishes",
           pic: 'images/mixed-dishes.png',
@@ -629,6 +441,194 @@ function AppViewModel() {
             {
               item: 'Shrimp Sincronizada',
               description: 'Tow flour tortillas stuffed with shrimp, cheese, tomatoes, onions, bell peppers and beans then served with rice, lettuce cheese'
+            }
+          ]
+        },
+        {
+          category: "burritos & enchiladas",
+          categoryID: "burritosEnchiladas",
+          pic: '',
+          items: [
+            {
+              item: "Burritos Deluxe",
+              description:
+                "Tow combination burritos - one chicken with refried beans and one beef with refried beans topped with lettuce, tomatoes and sour cream"
+            },
+            {
+              item: "Burrito de Chorizo",
+              description:
+                "Burrito filled with our homemade Mexican sausage and green sauce served with Spanish rice and refried beans"
+            },
+            {
+              item: "Burritos de Carnitas",
+              description:
+                "Fried pork burrito topped with green sauce and served with Spanish rice and refried beans"
+            },
+            {
+              item: "Burritos Rancheros",
+              description:
+                "Two burritos filled with beef tips and topped with melted cheese and special sauce"
+            },
+            {
+              item: "Burritos de Carne Asada",
+              description:
+                "Burrito filled with skirt steak and topped with lettuce and pico de gallo, served with Spanish rice and refried beans"
+            },
+            {
+              item: "Chimichanga",
+              description:
+                "Two soft or fried flour tortillas filled with beef tips and refried beans and topped with lettuce, tomatoes, sour cream, nacho cheese and guacamole"
+            },
+            {
+              item: "#F",
+              description:
+                "One chicken burrito and one chicken enchilada topped with lettuce and sour cream"
+            },
+            {
+              item: "Yolandas",
+              description:
+                "Three chicken enchiladas served wth Spanish rice and salad"
+            },
+            {
+              item: "Enchiladas Supremas",
+              description:
+                "Supreme combination consisting of four enchiladas, one chicken, one beef, one bean, and one cheese all topped with cheese, lettuce, tomatoes and sour cream"
+            },
+            {
+              item: "Enchiladas Rancheras",
+              description:
+                "One cheese and one chicken enchilada with onions topped with lettuce, sour cream, tomatoes and Spanish rice"
+            },
+            {
+              item: "Shrimp Chimichanga",
+              description: ""
+            }
+          ]
+        },
+        {
+          category: 'Combination Dinners',
+          categoryID: 'comboDinners',
+          pic: '',
+          items: [
+            {
+              item: '1. One taco, two enchilada and Spanish rice',
+              description: ''
+            },
+            {
+              item: '2. One taco, one enchilada and one chalupa',
+              description: ''
+            },
+            {
+              item: '3. One enchilada, two tacos and one chile relleno',
+              description: ''
+            },
+            {
+              item: '4. Two tacos, one enchilada and chile con queso',
+              description: ''
+            },
+            {
+              item: '5. Two beef enchiladas, Spanish rice and refried beans',
+              description: ''
+            },
+            {
+              item: '6. One beef enchilada, one taco, Spanish rice and refried beans',
+              description: ''
+            },
+            {
+              item: '7. One enchilada, one chile relleno, Spanish rice and refried beans',
+              description: ''
+            },
+            {
+              item: '8. One enchilada, one tamal, SPanish rice and refried beans',
+              description: ''
+            },
+            {
+              item: '9. One burrito, one enchilada and Spanish rice',
+              description: ''
+            },
+            {
+              item: '10. Two beef tacos, Spanish rice and refried beans',
+              description: ''
+            },
+            {
+              item: '11. One beef burrito, one taco and one enchilada',
+              description: ''
+            },
+            {
+              item: '12. One chalupa, one chile relleno and refried beans0',
+              description: ''
+            },
+            {
+              item: '13. One enchilada, one beef burrito and one chile relleno',
+              description: ''
+            },
+            {
+              item: '14. Two tacos, one chile relleno and one chalupa',
+              description: ''
+            },
+            {
+              item: '15. One beef burrito, one enchilada and one tamal',
+              description: ''
+            },
+            {
+              item: '16. One chalupa, one chile relleno and one beef burrito',
+              description: ''
+            },
+            {
+              item: '17. One burrito, one enchilada, Spanish rice and refried beans',
+              description: ''
+            },
+            {
+              item: '18. One chalupa, one chile relleno and one enchilada',
+              description: ''
+            },
+            {
+              item: '19. One chalupa, one beef burrito and one enchilada',
+              description: ''
+            },
+            {
+              item: '20. One chile relleno, one taco, Spanish rice and refired beans',
+              description: ''
+            },
+            {
+              item: '21. One taco, one burrito and one chalupa',
+              description: ''
+            },
+            {
+              item: '22. One burrito, one chile relleno and one taco',
+              description: ''
+            },
+            {
+              item: '23. One taco, one beef burrito, Spanish rice an drefried beans',
+              description: ''
+            },
+            {
+              item: '24. One chile relleno, one beef burrito and Spanish rice',
+              description: ''
+            },
+            {
+              item: '25. One chalupa, one taco and one tostada',
+              description: ''
+            },
+            {
+              item: '26. One burrito, one chicken quesadilla and Spanish rice',
+              description: ''
+            },
+            {
+              item: '27. One tostada, one enchilada and one chile relleno',
+              description: ''
+            },
+            {
+              item: '28. One burrito, one tamal and one chicken quesadilla',
+              description: ''
+            },
+            {
+              item: '29. One enchilada, one chalupa and one cheese quesadilla',
+              description: ''
+            },
+            {
+              item: '30. Two burritos and Spanish rice',
+              description: ''
             }
           ]
         },
