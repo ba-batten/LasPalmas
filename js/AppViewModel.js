@@ -319,7 +319,7 @@ function AppViewModel() {
         {
           category: "fajitas",
           categoryID: "fajitas",
-          pic: '',
+          pic: 'images/fajitas.png',
           items: [
             {
               item: 'Fajitas',
@@ -517,7 +517,7 @@ function AppViewModel() {
         {
           category: "mixed dishes",
           categoryID: "mixedDishes",
-          pic: '',
+          pic: 'images/mixed-dishes.png',
           items: [
             {
               item: 'Mar y Tierra',
@@ -791,7 +791,7 @@ function AppViewModel() {
         {
           category: "desserts",
           categoryID: "desserts",
-          pic: '',
+          pic: 'images/dessert.png',
           items: [
             {
               item: "Sopapillas",
