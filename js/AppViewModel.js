@@ -399,7 +399,7 @@ function AppViewModel() {
         {
           category: "beef & pork",
           categoryID: "beefPork",
-          pic: '',
+          pic: 'images/beef-and-pork.png',
           items: [
             {
               item: "Carnitas Dinner",
@@ -576,7 +576,7 @@ function AppViewModel() {
         {
           category: 'sea food',
           categoryID: 'seaFood',
-          pic: '',
+          pic: 'images/sea-food.png',
           items: [
             {
               item: 'Coctel de Camarón',
