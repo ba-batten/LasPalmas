@@ -16,7 +16,7 @@
 
 .t-fa {
   text-shadow: 1px 1px 3px rgb(51,51,51);
-  padding: 10.2px;
+  padding: 10.2px 0 6.3px;
   width: 48.4px;
 }
 
@@ -129,4 +129,5 @@
 
 .t-nav-name {
   font-size: 8px;
+  margin: 0;
 }
