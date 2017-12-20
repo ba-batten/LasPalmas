@@ -867,6 +867,7 @@ function AppViewModel() {
     self.data.home.show(false);
     self.data.locations.show(false);
     self.data.menu.show(false);
+    $('.home, .about, .locations, .menu').css('color', 'white');
   };
 
   // Change wordmark container to be a bar across top of page
@@ -903,6 +904,7 @@ function AppViewModel() {
     self.resetWordmarkContainer();
     self.closeViews();
     self.data.home.show(true);
+    $('.home').css('color', 'yellow');
     console.log("Go Home");
   };
 
@@ -910,6 +912,7 @@ function AppViewModel() {
     self.changeWordmarkContainer();
     self.closeViews();
     self.data.about.show(true);
+    $('.about').css('color', 'yellow');
     console.log("Go About");
   };
 
@@ -917,6 +920,7 @@ function AppViewModel() {
     self.changeWordmarkContainer();
     self.closeViews();
     self.data.locations.show(true);
+    $('.locations').css('color', 'yellow');
     console.log("Go Locations");
   };
 
@@ -924,6 +928,7 @@ function AppViewModel() {
     self.changeWordmarkContainer();
     self.closeViews();
     self.data.menu.show(true);
+    $('.menu').css('color', 'yellow');
     console.log("Go Menu");
   };
 
