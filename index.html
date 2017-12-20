@@ -83,11 +83,12 @@
       <div class="t-about m-about" data-bind="with: data.menu">
         <img src="images/menu-header.png" alt="Grande Combo plate of food" class="t-menu-pic">
         <ul data-bind="foreach: meals" class="l-menu-list">
-          <li class="l-menu-item t-menu-item" data-bind="attr: { id: categoryID }, click: $root.openCloseMenu">
+          <li class="l-menu-item t-menu-item" data-bind="attr: { id: categoryID }">
             <div class="t-menu-header m-menu-header" data-bind="style: { backgroundImage: 'url(' + pic + ')',
                 backgroundSize: '40%',
                 backgroundPosition: 'right center',
-                backgroundRepeat: 'no-repeat' }">
+                backgroundRepeat: 'no-repeat' },
+                click: $root.openCloseMenu">
               <h3 data-bind="text: category" class="l-category t-category"></h3>
               <a href="#" class="l-show-hide t-show-hide">
                 [
