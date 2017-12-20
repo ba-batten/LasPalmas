@@ -1,6 +1,10 @@
 # LasPalmas
 Website for Las Palmas Mexican Restaurant under construction.  
 
+## Live Demo
+* Click [here](http://brandonbatten.com) for a live demo.
+* This will be a fully responsive site.  I am building with mobile first in mind.  The project is incomplete, but is best viewed on mobile platforms.
+
 ## Features
 * Responsive design
 * Built with Knockout
