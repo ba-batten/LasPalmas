@@ -12,11 +12,12 @@
 
 .t-nav-list-item {
   color: white;
+  font-size: 20px;
 }
 
 .t-fa {
   text-shadow: 1px 1px 3px rgb(51,51,51);
-  padding: 10.2px 0 6.3px;
+  padding: 12px;
   width: 48.4px;
 }
 
@@ -127,7 +128,7 @@
 }
 
 .t-nav-name {
-  font-size: 8px;
+  font-size: 10px;
   margin: 0;
 }
 
