@@ -16,7 +16,7 @@
 
 .m-pane {
   width: 100%;
-  height: calc(100vh - 44px);
+  height: calc(100vh - 45.6px);
   /*background: url("../images/burrito.jpeg");*/
   overflow: scroll;
   padding: 0;
