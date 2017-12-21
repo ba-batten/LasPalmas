@@ -21,9 +21,9 @@
 }
 
 .t-fa:active {
-  color: #eee;
-  text-shadow: -1px -1px 3px rgb(51,51,51);
-  border-radius: 50%;
+  color: yellow;
+  /* text-shadow: -1px -1px 3px rgb(51,51,51); */
+  /* border-radius: 50%; */
 }
 
 .t-pane {
