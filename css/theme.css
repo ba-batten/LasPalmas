@@ -67,10 +67,10 @@
 }
 
 .t-about-img {
-  width: 50%;
-  border-radius: 50%;
-  margin: 0 10px 60px;
-  border: thick solid white;
+  width: 100%;
+  /* border-radius: 50%; */
+  margin: 0 0 60px;
+  /* border: thick solid white; */
 }
 
 .t-home-header {
