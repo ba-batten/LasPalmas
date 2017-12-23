@@ -64,12 +64,13 @@
 .t-about-text {
   line-height: 2;
   color: white;
+  padding: 0 12px;
 }
 
 .t-about-img {
   width: 100%;
   /* border-radius: 50%; */
-  margin: 42px 0 60px;
+  margin: 42px 0 20px;
   /* border: thick solid white; */
 }
 
