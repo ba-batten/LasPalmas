@@ -45,6 +45,7 @@
 
 .m-category-list {
   transition: height 0.2s, overlow 0.2s;
+  padding: 0 12px;
 }
 
 .m-category-list li {
