@@ -21,7 +21,7 @@ function AppViewModel() {
         " to have customers who support him and have helped him meet his dream. On behalf of Las Palmas Inc " +
         " and Saul and his family they would like to thank all there customers for there support and hope to " +
         " keep serving the community with more years to come!",
-      img: "images/girl_and_truck.jpeg",
+      img: "images/interior-small.jpg",
       show: ko.observable(false)
     },
     locations: {
