@@ -33,7 +33,7 @@ function AppViewModel() {
           city: "Durham",
           state: "NC",
           zip: "27703",
-          phone: "9195985610",
+          phone: "1-919-598-5610",
           img: "images/wake_forest_hwy_location.jpg"
         },
         {
@@ -42,7 +42,7 @@ function AppViewModel() {
           city: "Durham",
           state: "NC",
           zip: "27704",
-          phone: "9196201824",
+          phone: "1-919-620-1824",
           img: "images/duke_st_location.jpg"
         },
         {
@@ -51,7 +51,7 @@ function AppViewModel() {
           city: "Raleigh",
           state: "NC",
           zip: "27613",
-          phone: "9198454780",
+          phone: "1-919-845-4780",
           img: "images/strickland_rd_location.jpg"
         }
       ]
