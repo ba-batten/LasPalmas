@@ -71,7 +71,7 @@
               <p data-bind="text: street"></p>
               <p><span data-bind="text: city"></span>, <span data-bind="text: state"></span>
                 <span data-bind="text: zip"></span></p>
-              <a data-bind="attr: { tel: phone }, text: phone"></a>
+              <a data-bind="attr: { href: 'tel:' + phone }, text: phone"></a>
             </div>
           </li>
         </ul>
