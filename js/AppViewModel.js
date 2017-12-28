@@ -941,4 +941,6 @@ function AppViewModel() {
 
 var model = new AppViewModel();
 
-ko.applyBindings(model);
+window.addEventListener("load", function(event) {
+  ko.applyBindings(model);
+});

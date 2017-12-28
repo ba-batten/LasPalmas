@@ -52,3 +52,9 @@
   padding-bottom: 10px;
   display: block;
 }
+
+.m-map {
+  width: 100%;
+  height: 162px;
+  background: gray;
+}
