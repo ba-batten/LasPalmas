@@ -25,6 +25,9 @@
     <h2 class="t-tagline">Mexican Restaurant</h2>
   </div>
 
+  <!--
+    Navigation bar
+  -->
   <nav class="l-navigation m-navigation">
     <ul class="nav-list">
       <li class="l-nav-list-item t-nav-list-item text-center home" data-bind="click: goHome">
@@ -46,6 +49,9 @@
     </ul>
   </nav>
 
+  <!--
+    Hom eview
+  -->
   <main class="m-pane l-pane t-pane">
     <article data-bind="if: data.home.show">
       <div class="l-home t-home m-home">
@@ -53,6 +59,9 @@
       </div>
     </article>
 
+    <!--
+      About view
+    -->
     <article data-bind="if: data.about.show">
       <div class="t-about m-about">
         <!-- <h2>About</h2> -->
@@ -61,9 +70,13 @@
       </div>
     </article>
 
+    <!--
+      Locations view
+    -->
     <article data-bind="if: data.locations.show">
       <div class="t-about m-about" data-bind="with: data.locations">
         <h2 style="margin-bottom: 20px">Locations</h2>
+        <div id="map" class="m-map"></div>
         <ul class="m-loc-list l-loc-list t-loc-list" data-bind="foreach: locs">
           <li>
             <img class="t-loc-img" data-bind="attr: { src: img, alt: description }">
@@ -78,7 +91,9 @@
       </div>
     </article>
 
-
+    <!--
+      Menu view
+    -->
     <article data-bind="if: data.menu.show">
       <div class="t-about m-about" data-bind="with: data.menu">
         <img src="images/menu-header.png" alt="Grande Combo plate of food" class="t-menu-pic">
@@ -122,6 +137,10 @@
   <script src="jquery-3.2.1.min.js"></script>
   <script src="js/knockout-3.4.2.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/map.js"></script>
   <script src="js/AppViewModel.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD32lsXmcMQQDdsYKSZ0H9bve6fQaaUYNQ&callback=initMap"
+    onerror="mapsError()" async></script>
 </body>
 </html>
