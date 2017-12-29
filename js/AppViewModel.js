@@ -34,7 +34,8 @@ function AppViewModel() {
           state: "NC",
           zip: "27703",
           phone: "1-919-598-5610",
-          img: "images/wake_forest_hwy_location.jpg"
+          img: "images/wake_forest_hwy_location.jpg",
+          coords: {lat: 35.9815267, lng: -78.82024619999999}
         },
         {
           description: "North Duke Street Location",
@@ -43,7 +44,8 @@ function AppViewModel() {
           state: "NC",
           zip: "27704",
           phone: "1-919-620-1824",
-          img: "images/duke_st_location.jpg"
+          img: "images/duke_st_location.jpg",
+          coords: {lat: 36.0523611, lng: -78.90445690000001}
         },
         {
           description: "Strickland Road Location",
@@ -52,7 +54,8 @@ function AppViewModel() {
           state: "NC",
           zip: "27613",
           phone: "1-919-845-4780",
-          img: "images/strickland_rd_location.jpg"
+          img: "images/strickland_rd_location.jpg",
+          coords: {lat: 35.9082667, lng: -78.72753840000001}
         }
       ]
     },
