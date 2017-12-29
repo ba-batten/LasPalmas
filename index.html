@@ -50,7 +50,7 @@
   </nav>
 
   <!--
-    Hom eview
+    Home view
   -->
   <main class="m-pane l-pane t-pane">
     <article data-bind="if: data.home.show">
@@ -76,7 +76,7 @@
     <article data-bind="if: data.locations.show">
       <div class="t-about m-about" data-bind="with: data.locations">
         <!-- <h2 style="margin-bottom: 20px">Locations</h2> -->
-        <div id="map" class="m-map t-menu-pic"></div>
+        <!-- <div id="map" class="m-map t-menu-pic"></div> -->
         <ul class="m-loc-list l-loc-list t-loc-list" data-bind="foreach: locs">
           <li>
             <img class="t-loc-img" data-bind="attr: { src: img, alt: description }">
@@ -138,9 +138,9 @@
   <script src="js/knockout-3.4.2.js" async></script>
   <!-- <script src="js/bootstrap.min.js"></script> -->
   <script src="js/AppViewModel.js" async></script>
-  <script src="js/map.js" async></script>
+  <!-- <script src="js/map.js" async></script>
   <script
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD32lsXmcMQQDdsYKSZ0H9bve6fQaaUYNQ&callback=initMap"
-    onerror="mapsError()" async></script>
+    onerror="mapsError()" async></script> -->
 </body>
 </html>
