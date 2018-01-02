@@ -1,0 +1,39 @@
+/*
+* Base styles
+*/
+
+html, body {
+  /*height: 100vh;*/
+  /*width: 100vw;*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: white;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.8;
+  color: #222222;
+}
+
+body {
+  /*height: 100vh;*/
+  overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Frijole', sans-serif;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
