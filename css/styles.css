@@ -64,6 +64,12 @@ ul li {
   font-size: 28px;
 }
 
+.tagline {
+  font-size: 15px;
+  text-shadow: 0.5px 0.5px 0 white, -0.5px -0.5px 0 white;
+  color: #0B132B;
+}
+
 /*
 * Nav bar styles
 */
