@@ -86,3 +86,29 @@ ul li {
   font-size: 10px;
   margin: -8px 0 0;
 }
+
+/*
+* Pane settings
+*/
+
+.pane {
+  width: 100%;
+  height: calc(100vh - 50.4px);
+  /*background: url("../images/burrito.jpeg");*/
+  overflow: scroll;
+  padding: 0;
+  background: linear-gradient(
+    rgba(11,19,43,0.8),
+    rgba(11,19,43,0.8)
+  ), url("../images/burrito.jpeg");
+  background-size: cover;
+  background-position: 20%;
+}
+
+.pane h2 {
+  /*margin-top: 80px;*/
+  text-align: center;
+  display: block;
+  padding: 20px;
+  color: #fde74c;
+}
