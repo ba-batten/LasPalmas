@@ -1,33 +1,3 @@
-.t-about {
-  /*background: rgba(255,255,255,0.8);*/
-  height: 100%;
-  text-align: center;
-  overflow: scroll;
-}
-
-.t-about h2 {
-  margin: 50px auto 40px;
-}
-
-.t-about p {
-  text-align: left;
-  /*color: white;*/
-  font-size: 14px;
-}
-
-.t-about-text {
-  line-height: 2;
-  color: white;
-  padding: 0 12px;
-}
-
-.t-about-img {
-  width: 100%;
-  /* border-radius: 50%; */
-  margin: 42px 0 20px;
-  /* border: thick solid white; */
-}
-
 .t-loc-img {
   border-radius: none;
   border: none;
