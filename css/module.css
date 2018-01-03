@@ -1,9 +1,3 @@
-.m-navigation {
-  width: 100%;
-  background: #C02520;
-  /*padding: 10.2px 0;*/
-}
-
 .m-pane {
   width: 100%;
   height: calc(100vh - 50.4px);

@@ -63,3 +63,26 @@ ul li {
   /*text-shadow: 2px 2px #5FAD41;*/
   font-size: 28px;
 }
+
+/*
+* Nav bar styles
+*/
+
+.navigation {
+  width: 100%;
+  background: #C02520;
+  /*padding: 10.2px 0;*/
+  position: fixed;
+  bottom: 0;
+}
+
+.nav-list-item {
+  width: calc((100% / 4) - 3px);
+  color: white;
+  font-size: 22px;
+}
+
+.nav-name {
+  font-size: 10px;
+  margin: -8px 0 0;
+}
