@@ -86,6 +86,7 @@ ul li {
   width: calc((100% / 4) - 3px);
   color: white;
   font-size: 22px;
+  text-align: center;
 }
 
 .nav-name {
