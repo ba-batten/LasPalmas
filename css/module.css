@@ -1,11 +1,3 @@
-.m-pane {
-  width: 100%;
-  height: calc(100vh - 50.4px);
-  /*background: url("../images/burrito.jpeg");*/
-  overflow: scroll;
-  padding: 0;
-}
-
 .m-home {
   width: 100%;
 }
