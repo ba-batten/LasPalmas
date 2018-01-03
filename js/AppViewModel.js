@@ -915,7 +915,7 @@ function AppViewModel() {
     self.changeWordmarkContainer();
     self.closeViews();
     self.data.about.show(true);
-    $('.about').css('color', '#ffffb0');
+    $('.about-link').css('color', '#ffffb0');
     console.log("Go About");
   };
 
