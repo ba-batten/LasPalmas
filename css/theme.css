@@ -1,15 +1,3 @@
-.t-fa {
-  text-shadow: 1px 1px 3px rgb(51,51,51);
-  padding: 8px 0 0;
-  width: 48.4px;
-}
-
-.t-fa:active {
-  color: yellow;
-  /* text-shadow: -1px -1px 3px rgb(51,51,51); */
-  /* border-radius: 50%; */
-}
-
 .t-about {
   /*background: rgba(255,255,255,0.8);*/
   height: 100%;
