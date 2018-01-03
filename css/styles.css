@@ -93,9 +93,20 @@ ul li {
   margin: -8px 0 0;
 }
 
-
 .home {
   color: #ffffb0;
+}
+
+.t-fa {
+  text-shadow: 1px 1px 3px rgb(51,51,51);
+  padding: 8px 0 0;
+  width: 48.4px;
+}
+
+.t-fa:active {
+  color: yellow;
+  /* text-shadow: -1px -1px 3px rgb(51,51,51); */
+  /* border-radius: 50%; */
 }
 
 /*
