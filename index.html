@@ -64,10 +64,10 @@
       About view
     -->
     <article data-bind="if: data.about.show">
-      <div class="t-about m-about">
+      <div class="about">
         <!-- <h2>About</h2> -->
-        <img data-bind="attr: { src: data.about.img }" class="l-about-img t-about-img">
-        <p data-bind="text: data.about.text" class="t-about-text"></p>
+        <img data-bind="attr: { src: data.about.img }" class="about-img">
+        <p data-bind="text: data.about.text" class="about-text"></p>
       </div>
     </article>
 
@@ -75,7 +75,7 @@
       Locations view
     -->
     <article data-bind="if: data.locations.show">
-      <div class="t-about m-about" data-bind="with: data.locations">
+      <div class="about" data-bind="with: data.locations">
         <!-- <h2 style="margin-bottom: 20px">Locations</h2> -->
         <!-- <div id="map" class="m-map t-menu-pic"></div> -->
         <ul class="m-loc-list l-loc-list t-loc-list" data-bind="foreach: locs">
