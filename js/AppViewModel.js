@@ -885,7 +885,7 @@ function AppViewModel() {
       "polygon(0% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%)"
     );
     $(".wordmark-container").css("padding", "10px 0");
-    $(".t-tagline").css("display", "none");
+    $(".tagline").css("display", "none");
   };
 
   // Reset wordmark container to be a shape centered at top of page
@@ -900,7 +900,7 @@ function AppViewModel() {
       "polygon(0% 0%, 100% 0%, 97% 80%, 50% 100%, 3% 80%)"
     );
     $(".wordmark-container").css("padding", "10px 15px 20px");
-    $(".t-tagline").css("display", "block");
+    $(".tagline").css("display", "block");
   };
 
   self.goHome = function() {
