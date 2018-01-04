@@ -187,3 +187,34 @@ ul li {
   margin: 42px 0 20px;
   /* border: thick solid white; */
 }
+
+/*
+* Locations view
+*/
+
+.loc-list {
+  text-align: left;
+  margin: 80px 0 0;
+}
+
+.loc-list p {
+  margin: 0;
+  color: white;
+  line-height: 1.5;
+}
+
+.loc-list li {
+  margin: 0 0 20px;
+}
+
+.loc-img {
+  border-radius: none;
+  border: none;
+  width: 40%;
+  float: left;
+  margin: 10px;
+}
+
+.address {
+  display: inline-block;
+}
