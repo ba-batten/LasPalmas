@@ -870,7 +870,7 @@ function AppViewModel() {
     self.data.home.show(false);
     self.data.locations.show(false);
     self.data.menu.show(false);
-    $('.home, .about, .locations, .menu').css('color', 'white');
+    $('.home, .about-link, .locations, .menu').css('color', 'white');
   };
 
   // Change wordmark container to be a bar across top of page
