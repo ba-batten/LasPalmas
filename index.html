@@ -52,7 +52,7 @@
   <main class="pane">
     <article data-bind="if: data.home.show">
       <div class="home-section">
-        <h2 data-bind="text: data.home.text" class="home-header"></h2>
+        <!-- <h2 data-bind="text: data.home.text" class="home-header"></h2> -->
       </div>
     </article>
 
@@ -92,7 +92,7 @@
       Menu view
     -->
     <article data-bind="if: data.menu.show">
-      <div class="about-section" data-bind="with: data.menu">
+      <div class="about" data-bind="with: data.menu">
         <img src="images/menu-header.png" alt="Grande Combo plate of food" class="menu-pic">
         <ul data-bind="foreach: meals" class="menu-list">
           <li class="menu-item" data-bind="attr: { id: categoryID }">
