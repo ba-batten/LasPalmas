@@ -56,7 +56,7 @@
   <main class="pane">
     <article data-bind="if: data.home.show">
       <div class="home-section">
-        <h2 data-bind="text: data.home.text" class="t-home-header"></h2>
+        <h2 data-bind="text: data.home.text" class="home-header"></h2>
       </div>
     </article>
 
@@ -77,7 +77,7 @@
     <article data-bind="if: data.locations.show">
       <div class="about" data-bind="with: data.locations">
         <!-- <h2 style="margin-bottom: 20px">Locations</h2> -->
-        <!-- <div id="map" class="m-map t-menu-pic"></div> -->
+        <!-- <div id="map" class="map t-menu-pic"></div> -->
         <ul class="loc-list" data-bind="foreach: locs">
           <li>
             <img class="loc-img" data-bind="attr: { src: img, alt: description }">
@@ -96,26 +96,26 @@
       Menu view
     -->
     <article data-bind="if: data.menu.show">
-      <div class="t-about m-about" data-bind="with: data.menu">
-        <img src="images/menu-header.png" alt="Grande Combo plate of food" class="t-menu-pic">
-        <ul data-bind="foreach: meals" class="l-menu-list">
-          <li class="l-menu-item t-menu-item" data-bind="attr: { id: categoryID }">
-            <div class="t-menu-header m-menu-header" data-bind="style: { backgroundImage: 'url(' + pic + ')',
+      <div class="about-section" data-bind="with: data.menu">
+        <img src="images/menu-header.png" alt="Grande Combo plate of food" class="menu-pic">
+        <ul data-bind="foreach: meals" class="menu-list">
+          <li class="menu-item" data-bind="attr: { id: categoryID }">
+            <div class="menu-header" data-bind="style: { backgroundImage: 'url(' + pic + ')',
                 backgroundSize: '40%',
                 backgroundPosition: 'right center',
                 backgroundRepeat: 'no-repeat' },
                 click: $root.openCloseMenu">
-              <h3 data-bind="text: category" class="l-category t-category"></h3>
-              <a href="#" class="l-show-hide t-show-hide">
+              <h3 data-bind="text: category" class="category"></h3>
+              <a href="#" class="show-hide">
                 [
                   <i class="fa fa-caret-up" aria-hidden="true"></i>
                 ]
               </a>
             </div>
-            <ul data-bind="foreach: items" class="category-list t-category-list m-category-list is-collapsed">
-              <li class="m-food-item t-food-item">
-                <h4 data-bind="text: item" class="t-menu-item-name"></h4>
-                <p data-bind="text: description" class="t-menu-text"></p>
+            <ul data-bind="foreach: items" class="category-list is-collapsed">
+              <li class="food-item">
+                <h4 data-bind="text: item" class="menu-item-name"></h4>
+                <p data-bind="text: description" class="menu-text"></p>
               </li>
 
             </ul>
