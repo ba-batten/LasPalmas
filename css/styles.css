@@ -74,7 +74,7 @@ ul li {
 * Nav bar styles
 */
 
-.navigation {
+.navigation-bar {
   width: 100%;
   background: #C02520;
   /*padding: 10.2px 0;*/
@@ -288,4 +288,8 @@ ul li {
 .show-hide {
   /*float: right;*/
   margin: 15px;
+}
+
+@media screen and (min-width: 750px) {
+
 }
