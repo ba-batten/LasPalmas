@@ -296,4 +296,22 @@ ul li {
 
 @media screen and (min-width: 750px) {
 
+  /*
+  * Navigation styles
+  */
+
+  .navigation-bar {
+    display: none;
+  }
+
+  .top-navigation-bar {
+    display: block;
+    background: green;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .top-nav-list-item {
+    margin: 0 15px;
+  }
 }
