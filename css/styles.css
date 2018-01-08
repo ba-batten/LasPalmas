@@ -74,6 +74,10 @@ ul li {
 * Nav bar styles
 */
 
+.top-navigation-bar {
+  display: none;
+}
+
 .navigation-bar {
   width: 100%;
   background: #C02520;
