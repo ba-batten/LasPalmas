@@ -47,6 +47,26 @@
   </nav>
 
   <!--
+    Top Navigation bar
+  -->
+  <nav class="-top-navigation-bar">
+    <ul class="top-nav-list">
+      <li class="top-nav-list-item home" data-bind="click: goHome">
+        <p class="nav-name">Home</p>
+      </li>
+      <li class="top-nav-list-item about-link" data-bind="click: goAbout">
+        <p class="top-nav-name">About</p>
+      </li>
+      <li class="top-nav-list-item locations" data-bind="click: goLocations">
+        <p class="top-nav-name">Locations</p>
+      </li>
+      <li class="top-nav-list-item menu" data-bind="click: goMenu">
+        <p class="top-nav-name">Menu</p>
+      </li>
+    </ul>
+  </nav>
+
+  <!--
     Home view
   -->
   <main class="pane">
